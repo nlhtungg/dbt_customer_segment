@@ -112,23 +112,23 @@ services:
       - spark-master
 
   jupyter:
-    build: ./containers/jupyter
+    build:
+      context: .
+      dockerfile: containers/jupyter/Dockerfile
     container_name: jupyter
     ports:
       - "8888:8888"
     volumes:
-      - ./notebooks:/home/jovyan/work
-      - ./data:/home/jovyan/work/data
-      - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
-      - ./app/:/opt/app/  # Giữ lại các tệp ứng dụng trong container
-      - ./jars:/home/jovyan/jars
+      - ./notebooks:/opt/bitnami/spark/work
+      - ./data:/opt/bitnami/spark/work/data
     depends_on:
       - spark-master
       - spark-worker
+      - hive-metastore
+      - minio
     environment:
-      - PYSPARK_PYTHON=python3
       - SPARK_MASTER_URL=spark://spark-master:7077
-    command: ["start-notebook.sh", "--NotebookApp.token=''"]
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
 
   trino:
     image: trinodb/trino:414

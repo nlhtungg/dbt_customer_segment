@@ -1,0 +1,191 @@
+Entered start.sh with args: jupyter lab --NotebookApp.token=''
+Running hooks in: /usr/local/bin/start-notebook.d as uid: 1000 gid: 100
+Done running hooks in: /usr/local/bin/start-notebook.d
+Running hooks in: /usr/local/bin/before-notebook.d as uid: 1000 gid: 100
+Sourcing shell script: /usr/local/bin/before-notebook.d/spark-config.sh
+Done running hooks in: /usr/local/bin/before-notebook.d
+Executing the command: jupyter lab --NotebookApp.token=''
+Entered start.sh with args: jupyter lab --NotebookApp.token=''
+Running hooks in: /usr/local/bin/start-notebook.d as uid: 1000 gid: 100
+Done running hooks in: /usr/local/bin/start-notebook.d
+Running hooks in: /usr/local/bin/before-notebook.d as uid: 1000 gid: 100
+Sourcing shell script: /usr/local/bin/before-notebook.d/spark-config.sh
+Done running hooks in: /usr/local/bin/before-notebook.d
+Executing the command: jupyter lab --NotebookApp.token=''
+[I 2025-07-31 06:20:08.518 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2025-07-31 06:20:08.602 ServerApp] Package jupyter_lsp took 0.0825s to import
+[W 2025-07-31 06:20:08.602 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:20:08.606 ServerApp] Package jupyter_server_mathjax took 0.0041s to import
+[I 2025-07-31 06:20:08.659 ServerApp] Package jupyter_server_terminals took 0.0524s to import
+[I 2025-07-31 06:20:08.816 ServerApp] Package jupyterlab_git took 0.1565s to import
+[I 2025-07-31 06:20:08.827 ServerApp] Package nbclassic took 0.0100s to import
+[W 2025-07-31 06:20:08.833 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:20:08.834 ServerApp] Package nbdime took 0.0000s to import
+[I 2025-07-31 06:20:08.834 ServerApp] Package notebook took 0.0000s to import
+[I 2025-07-31 06:20:08.838 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2025-07-31 06:20:08.838 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:20:08.840 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-31 06:20:08.846 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2025-07-31 06:20:08.851 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-07-31 06:20:08.854 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+/opt/conda/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '' instead of "''" if you require traitlets >=5.
+  warn(
+[W 2025-07-31 06:20:08.863 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2025-07-31 06:20:08.863 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-31 06:20:08.863 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2025-07-31 06:20:08.869 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-31 06:20:08.869 ServerApp] nbdime | extension was successfully linked.
+[I 2025-07-31 06:20:08.874 ServerApp] notebook | extension was successfully linked.
+[I 2025-07-31 06:20:08.877 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2025-07-31 06:20:09.840 ServerApp] notebook_shim | extension was successfully linked.
+/opt/conda/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '' instead of "''" if you require traitlets >=5.
+  warn(
+[W 2025-07-31 06:20:09.906 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2025-07-31 06:20:09.907 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-31 06:20:09.909 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-31 06:20:09.910 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2025-07-31 06:20:09.911 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-31 06:20:09.943 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.11/site-packages/jupyterlab
+[I 2025-07-31 06:20:09.943 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2025-07-31 06:20:09.944 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-31 06:20:09.978 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-31 06:20:09.982 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2025-07-31 06:20:09.995 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-31 06:20:10.197 ServerApp] nbdime | extension was successfully loaded.
+[I 2025-07-31 06:20:10.200 ServerApp] notebook | extension was successfully loaded.
+[I 2025-07-31 06:20:10.200 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2025-07-31 06:20:10.200 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2025-07-31 06:20:10.200 ServerApp] http://9e777771ff07:8888/lab
+[I 2025-07-31 06:20:10.200 ServerApp]     http://127.0.0.1:8888/lab
+[I 2025-07-31 06:20:10.200 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-31 06:20:11.678 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[C 2025-07-31 06:46:44.659 ServerApp] received signal 15, stopping
+[I 2025-07-31 06:46:44.660 ServerApp] Shutting down 9 extensions
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+Entered start.sh with args: jupyter lab --NotebookApp.token=''
+Running hooks in: /usr/local/bin/start-notebook.d as uid: 1000 gid: 100
+Done running hooks in: /usr/local/bin/start-notebook.d
+Running hooks in: /usr/local/bin/before-notebook.d as uid: 1000 gid: 100
+Sourcing shell script: /usr/local/bin/before-notebook.d/spark-config.sh
+Done running hooks in: /usr/local/bin/before-notebook.d
+Executing the command: jupyter lab --NotebookApp.token=''
+[I 2025-07-31 06:54:07.621 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2025-07-31 06:54:07.702 ServerApp] Package jupyter_lsp took 0.0800s to import
+[W 2025-07-31 06:54:07.702 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:54:07.708 ServerApp] Package jupyter_server_mathjax took 0.0054s to import
+[I 2025-07-31 06:54:07.778 ServerApp] Package jupyter_server_terminals took 0.0693s to import
+[I 2025-07-31 06:54:07.946 ServerApp] Package jupyterlab_git took 0.1679s to import
+[I 2025-07-31 06:54:07.962 ServerApp] Package nbclassic took 0.0151s to import
+[W 2025-07-31 06:54:07.972 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:54:07.973 ServerApp] Package nbdime took 0.0000s to import
+[I 2025-07-31 06:54:07.973 ServerApp] Package notebook took 0.0000s to import
+[I 2025-07-31 06:54:07.978 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2025-07-31 06:54:07.978 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-07-31 06:54:07.981 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-31 06:54:07.987 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2025-07-31 06:54:07.992 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-07-31 06:54:07.994 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+/opt/conda/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '' instead of "''" if you require traitlets >=5.
+  warn(
+[W 2025-07-31 06:54:08.004 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2025-07-31 06:54:08.004 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-31 06:54:08.005 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2025-07-31 06:54:08.010 ServerApp] nbclassic | extension was successfully linked.
+[I 2025-07-31 06:54:08.011 ServerApp] nbdime | extension was successfully linked.
+[I 2025-07-31 06:54:08.017 ServerApp] notebook | extension was successfully linked.
+[I 2025-07-31 06:54:08.023 ServerApp] Writing Jupyter server cookie secret to /home/jovyan/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2025-07-31 06:54:08.915 ServerApp] notebook_shim | extension was successfully linked.
+/opt/conda/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use '' instead of "''" if you require traitlets >=5.
+  warn(
+[W 2025-07-31 06:54:08.969 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2025-07-31 06:54:08.969 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-31 06:54:08.971 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-31 06:54:08.972 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2025-07-31 06:54:08.974 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-31 06:54:09.006 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.11/site-packages/jupyterlab
+[I 2025-07-31 06:54:09.006 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2025-07-31 06:54:09.006 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-31 06:54:09.058 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-31 06:54:09.063 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2025-07-31 06:54:09.083 ServerApp] nbclassic | extension was successfully loaded.
+[I 2025-07-31 06:54:09.317 ServerApp] nbdime | extension was successfully loaded.
+[I 2025-07-31 06:54:09.321 ServerApp] notebook | extension was successfully loaded.
+[I 2025-07-31 06:54:09.322 ServerApp] Serving notebooks from local directory: /home/jovyan
+[I 2025-07-31 06:54:09.322 ServerApp] Jupyter Server 2.7.3 is running at:
+[I 2025-07-31 06:54:09.322 ServerApp] http://52b0e7f1bd74:8888/lab
+[I 2025-07-31 06:54:09.322 ServerApp]     http://127.0.0.1:8888/lab
+[I 2025-07-31 06:54:09.322 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-31 06:54:10.726 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[C 2025-07-31 07:09:03.811 ServerApp] received signal 15, stopping
+[I 2025-07-31 07:09:03.868 ServerApp] Shutting down 9 extensions
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[38;5;6mspark [38;5;5m07:43:25.12 [0m[38;5;2mINFO [0m ==> 
+[38;5;6mspark [38;5;5m07:43:25.12 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+[38;5;6mspark [38;5;5m07:43:25.13 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+[38;5;6mspark [38;5;5m07:43:25.13 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+[38;5;6mspark [38;5;5m07:43:25.14 [0m[38;5;2mINFO [0m ==> 
+
+[I 2025-07-31 07:43:30.234 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-07-31 07:43:30.241 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-07-31 07:43:30.244 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-31 07:43:30.250 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2025-07-31 07:43:30.250 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-07-31 07:43:30.258 ServerApp] notebook | extension was successfully linked.
+[I 2025-07-31 07:43:30.263 ServerApp] Writing Jupyter server cookie secret to /.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2025-07-31 07:43:31.057 ServerApp] notebook_shim | extension was successfully linked.
+[W 2025-07-31 07:43:31.085 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2025-07-31 07:43:31.086 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-07-31 07:43:31.090 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-07-31 07:43:31.093 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-07-31 07:43:31.098 LabApp] JupyterLab extension loaded from /opt/bitnami/python/lib/python3.11/site-packages/jupyterlab
+[I 2025-07-31 07:43:31.098 LabApp] JupyterLab application directory is /opt/bitnami/python/share/jupyter/lab
+[I 2025-07-31 07:43:31.099 LabApp] Extension Manager is 'pypi'.
+[I 2025-07-31 07:43:31.190 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-07-31 07:43:31.193 ServerApp] notebook | extension was successfully loaded.
+[I 2025-07-31 07:43:31.195 ServerApp] Serving notebooks from local directory: /opt/bitnami/spark
+[I 2025-07-31 07:43:31.195 ServerApp] Jupyter Server 2.16.0 is running at:
+[I 2025-07-31 07:43:31.196 ServerApp] http://e60c03d03023:8888/tree
+[I 2025-07-31 07:43:31.196 ServerApp]     http://127.0.0.1:8888/tree
+[I 2025-07-31 07:43:31.196 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-07-31 07:43:31.225 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-07-31 07:43:34.473 ServerApp] 302 GET / (@172.18.0.1) 0.68ms
+[W 2025-07-31 07:44:43.711 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2025-07-31 07:44:45.047 ServerApp] 404 GET /api/contents/work/demo.ipynb?content=0&hash=0&1753947885038 (3959168104784320b930cff390aedfd8@172.18.0.1) 2.09ms referer=http://localhost:8888/lab/tree/work/demo.ipynb
+[W 2025-07-31 07:44:45.048 ServerApp] 404 GET /api/contents/work/demo.ipynb?content=0&hash=0&1753947885038 (172.18.0.1): No such file or directory: work/demo.ipynb
+[I 2025-07-31 07:45:31.380 ServerApp] Creating new notebook in 
+[I 2025-07-31 07:45:31.448 ServerApp] Writing notebook-signing key to /.local/share/jupyter/notebook_secret
+[I 2025-07-31 07:45:31.832 ServerApp] Kernel started: ec30bc2c-e0e3-4053-8f70-b057a4867285
+[I 2025-07-31 07:45:32.475 ServerApp] Connecting to kernel ec30bc2c-e0e3-4053-8f70-b057a4867285.
+[I 2025-07-31 07:45:32.477 ServerApp] Connecting to kernel ec30bc2c-e0e3-4053-8f70-b057a4867285.
+[W 2025-07-31 07:45:32.478 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-07-31 07:45:32.494 ServerApp] Connecting to kernel ec30bc2c-e0e3-4053-8f70-b057a4867285.
+[I 2025-07-31 07:47:32.562 ServerApp] Saving file at /Untitled.ipynb
+[C 2025-07-31 07:58:41.253 ServerApp] received signal 15, stopping
+[I 2025-07-31 07:58:41.254 ServerApp] Shutting down 5 extensions
+[I 2025-07-31 07:58:41.255 ServerApp] Shutting down 1 kernel
+[I 2025-07-31 07:58:41.257 ServerApp] Kernel shutdown: ec30bc2c-e0e3-4053-8f70-b057a4867285

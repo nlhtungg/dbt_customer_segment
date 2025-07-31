@@ -1,0 +1,288 @@
+[38;5;6mspark [38;5;5m06:20:03.95 [0m[38;5;2mINFO [0m ==> 
+[38;5;6mspark [38;5;5m06:20:03.95 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+[38;5;6mspark [38;5;5m06:20:03.95 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+[38;5;6mspark [38;5;5m06:20:03.95 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+[38;5;6mspark [38;5;5m06:20:03.95 [0m[38;5;2mINFO [0m ==> 
+
+starting org.apache.spark.sql.hive.thriftserver.HiveThriftServer2, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.sql.hive.thriftserver.HiveThriftServer2-1-7a5ad9badcf6.out
+Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g --add-exports java.base/sun.nio.ch=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false org.apache.spark.deploy.SparkSubmit --master spark://spark-master:7077 --conf hive.server2.thrift.port=10000 --conf spark.driver.extraJavaOptions=--add-exports java.base/sun.nio.ch=ALL-UNNAMED --class org.apache.spark.sql.hive.thriftserver.HiveThriftServer2 --name Thrift JDBC/ODBC Server spark-internal
+========================================
+Warning: Ignoring non-Spark config property: hive.server2.thrift.port
+25/07/31 06:20:09 INFO HiveThriftServer2: Started daemon with process name: 21@7a5ad9badcf6
+25/07/31 06:20:09 INFO SignalUtils: Registering signal handler for TERM
+25/07/31 06:20:09 INFO SignalUtils: Registering signal handler for HUP
+25/07/31 06:20:09 INFO SignalUtils: Registering signal handler for INT
+25/07/31 06:20:09 INFO HiveThriftServer2: Starting SparkContext
+25/07/31 06:20:09 INFO HiveConf: Found configuration file null
+25/07/31 06:20:10 INFO SparkContext: Running Spark version 3.4.1
+25/07/31 06:20:10 INFO ResourceUtils: ==============================================================
+25/07/31 06:20:10 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/07/31 06:20:10 INFO ResourceUtils: ==============================================================
+25/07/31 06:20:10 INFO SparkContext: Submitted application: Thrift JDBC/ODBC Server
+25/07/31 06:20:10 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/07/31 06:20:10 INFO ResourceProfile: Limiting resource is cpu
+25/07/31 06:20:10 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/07/31 06:20:10 INFO SecurityManager: Changing view acls to: spark
+25/07/31 06:20:10 INFO SecurityManager: Changing modify acls to: spark
+25/07/31 06:20:10 INFO SecurityManager: Changing view acls groups to: 
+25/07/31 06:20:10 INFO SecurityManager: Changing modify acls groups to: 
+25/07/31 06:20:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+25/07/31 06:20:10 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/07/31 06:20:10 INFO Utils: Successfully started service 'sparkDriver' on port 34825.
+25/07/31 06:20:11 INFO SparkEnv: Registering MapOutputTracker
+25/07/31 06:20:11 INFO SparkEnv: Registering BlockManagerMaster
+25/07/31 06:20:11 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/31 06:20:11 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/31 06:20:11 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/07/31 06:20:11 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-0642edac-9c8a-4c56-a082-ff08dd14c5f3
+25/07/31 06:20:11 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/07/31 06:20:11 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/31 06:20:11 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/07/31 06:20:11 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/07/31 06:20:11 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+25/07/31 06:20:11 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.6:7077 after 37 ms (0 ms spent in bootstraps)
+25/07/31 06:20:12 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250731062012-0000
+25/07/31 06:20:12 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33375.
+25/07/31 06:20:12 INFO NettyBlockTransferService: Server created on 7a5ad9badcf6:33375
+25/07/31 06:20:12 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/31 06:20:12 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 7a5ad9badcf6, 33375, None)
+25/07/31 06:20:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250731062012-0000/0 on worker-20250731062010-172.18.0.8-34945 (172.18.0.8:34945) with 12 core(s)
+25/07/31 06:20:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250731062012-0000/0 on hostPort 172.18.0.8:34945 with 12 core(s), 1024.0 MiB RAM
+25/07/31 06:20:12 INFO BlockManagerMasterEndpoint: Registering block manager 7a5ad9badcf6:33375 with 434.4 MiB RAM, BlockManagerId(driver, 7a5ad9badcf6, 33375, None)
+25/07/31 06:20:12 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 7a5ad9badcf6, 33375, None)
+25/07/31 06:20:12 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 7a5ad9badcf6, 33375, None)
+25/07/31 06:20:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250731062012-0000/0 is now RUNNING
+25/07/31 06:20:12 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+25/07/31 06:20:12 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+25/07/31 06:20:12 INFO SharedState: Warehouse path is 'file:/opt/bitnami/spark/spark-warehouse'.
+25/07/31 06:20:13 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+25/07/31 06:20:14 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 06:20:14 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+25/07/31 06:20:14 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+25/07/31 06:20:14 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+25/07/31 06:20:14 INFO ObjectStore: ObjectStore, initialize called
+25/07/31 06:20:14 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+25/07/31 06:20:14 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+25/07/31 06:20:15 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.8:58818) with ID 0,  ResourceProfileId 0
+25/07/31 06:20:15 INFO BlockManagerMasterEndpoint: Registering block manager 172.18.0.8:39361 with 434.4 MiB RAM, BlockManagerId(0, 172.18.0.8, 39361, None)
+25/07/31 06:20:17 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+25/07/31 06:20:19 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+25/07/31 06:20:19 INFO ObjectStore: Initialized ObjectStore
+25/07/31 06:20:20 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+25/07/31 06:20:20 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@172.18.0.7
+25/07/31 06:20:20 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+25/07/31 06:20:20 INFO HiveMetaStore: Added admin role in metastore
+25/07/31 06:20:20 INFO HiveMetaStore: Added public role in metastore
+25/07/31 06:20:20 INFO HiveMetaStore: No user is added in admin role, since config is empty
+25/07/31 06:20:20 INFO HiveMetaStore: 0: get_database: default
+25/07/31 06:20:20 INFO audit: ugi=spark	ip=unknown-ip-addr	cmd=get_database: default	
+25/07/31 06:20:20 INFO HiveUtils: Initializing execution hive, version 2.3.9
+25/07/31 06:20:20 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 06:20:20 INFO SessionManager: Operation log root directory is created: /tmp/spark/operation_logs
+25/07/31 06:20:20 INFO SessionManager: HiveServer2: Background operation thread pool size: 100
+25/07/31 06:20:20 INFO SessionManager: HiveServer2: Background operation thread wait queue size: 100
+25/07/31 06:20:20 INFO SessionManager: HiveServer2: Background operation thread keepalive time: 10 seconds
+25/07/31 06:20:20 INFO AbstractService: Service:OperationManager is inited.
+25/07/31 06:20:20 INFO AbstractService: Service:SessionManager is inited.
+25/07/31 06:20:20 INFO AbstractService: Service: CLIService is inited.
+25/07/31 06:20:20 INFO AbstractService: Service:ThriftBinaryCLIService is inited.
+25/07/31 06:20:20 INFO AbstractService: Service: HiveServer2 is inited.
+25/07/31 06:20:20 INFO AbstractService: Service:OperationManager is started.
+25/07/31 06:20:20 INFO AbstractService: Service:SessionManager is started.
+25/07/31 06:20:20 INFO AbstractService: Service: CLIService is started.
+25/07/31 06:20:20 INFO AbstractService: Service:ThriftBinaryCLIService is started.
+25/07/31 06:20:20 INFO ThriftCLIService: Starting ThriftBinaryCLIService on port 10000 with 5...500 worker threads
+25/07/31 06:20:20 INFO AbstractService: Service:HiveServer2 is started.
+25/07/31 06:20:20 INFO HiveThriftServer2: HiveThriftServer2 started
+[38;5;6mspark [38;5;5m06:54:03.09 [0m[38;5;2mINFO [0m ==> 
+[38;5;6mspark [38;5;5m06:54:03.09 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+[38;5;6mspark [38;5;5m06:54:03.09 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+[38;5;6mspark [38;5;5m06:54:03.09 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+[38;5;6mspark [38;5;5m06:54:03.10 [0m[38;5;2mINFO [0m ==> 
+
+starting org.apache.spark.sql.hive.thriftserver.HiveThriftServer2, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.sql.hive.thriftserver.HiveThriftServer2-1-771f8ade4a32.out
+Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g --add-exports java.base/sun.nio.ch=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false org.apache.spark.deploy.SparkSubmit --master spark://spark-master:7077 --conf hive.server2.thrift.port=10000 --conf spark.driver.extraJavaOptions=--add-exports java.base/sun.nio.ch=ALL-UNNAMED --class org.apache.spark.sql.hive.thriftserver.HiveThriftServer2 --name Thrift JDBC/ODBC Server spark-internal
+========================================
+Warning: Ignoring non-Spark config property: hive.server2.thrift.port
+25/07/31 06:54:08 INFO HiveThriftServer2: Started daemon with process name: 21@771f8ade4a32
+25/07/31 06:54:08 INFO SignalUtils: Registering signal handler for TERM
+25/07/31 06:54:08 INFO SignalUtils: Registering signal handler for HUP
+25/07/31 06:54:08 INFO SignalUtils: Registering signal handler for INT
+25/07/31 06:54:08 INFO HiveThriftServer2: Starting SparkContext
+25/07/31 06:54:08 INFO HiveConf: Found configuration file null
+25/07/31 06:54:09 INFO SparkContext: Running Spark version 3.4.1
+25/07/31 06:54:09 INFO ResourceUtils: ==============================================================
+25/07/31 06:54:09 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/07/31 06:54:09 INFO ResourceUtils: ==============================================================
+25/07/31 06:54:09 INFO SparkContext: Submitted application: Thrift JDBC/ODBC Server
+25/07/31 06:54:09 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/07/31 06:54:09 INFO ResourceProfile: Limiting resource is cpu
+25/07/31 06:54:09 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/07/31 06:54:09 INFO SecurityManager: Changing view acls to: spark
+25/07/31 06:54:09 INFO SecurityManager: Changing modify acls to: spark
+25/07/31 06:54:09 INFO SecurityManager: Changing view acls groups to: 
+25/07/31 06:54:09 INFO SecurityManager: Changing modify acls groups to: 
+25/07/31 06:54:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+25/07/31 06:54:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/07/31 06:54:09 INFO Utils: Successfully started service 'sparkDriver' on port 33717.
+25/07/31 06:54:10 INFO SparkEnv: Registering MapOutputTracker
+25/07/31 06:54:10 INFO SparkEnv: Registering BlockManagerMaster
+25/07/31 06:54:10 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/31 06:54:10 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/31 06:54:10 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/07/31 06:54:10 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-93ce1410-58cf-4e69-bdd6-1f86e8be7177
+25/07/31 06:54:10 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/07/31 06:54:10 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/31 06:54:10 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/07/31 06:54:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/07/31 06:54:10 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+25/07/31 06:54:10 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.6:7077 after 24 ms (0 ms spent in bootstraps)
+25/07/31 06:54:11 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250731065411-0000
+25/07/31 06:54:11 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45161.
+25/07/31 06:54:11 INFO NettyBlockTransferService: Server created on 771f8ade4a32:45161
+25/07/31 06:54:11 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/31 06:54:11 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 771f8ade4a32, 45161, None)
+25/07/31 06:54:11 INFO BlockManagerMasterEndpoint: Registering block manager 771f8ade4a32:45161 with 434.4 MiB RAM, BlockManagerId(driver, 771f8ade4a32, 45161, None)
+25/07/31 06:54:11 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250731065411-0000/0 on worker-20250731065409-172.18.0.8-44029 (172.18.0.8:44029) with 12 core(s)
+25/07/31 06:54:11 INFO StandaloneSchedulerBackend: Granted executor ID app-20250731065411-0000/0 on hostPort 172.18.0.8:44029 with 12 core(s), 1024.0 MiB RAM
+25/07/31 06:54:11 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 771f8ade4a32, 45161, None)
+25/07/31 06:54:11 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 771f8ade4a32, 45161, None)
+25/07/31 06:54:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250731065411-0000/0 is now RUNNING
+25/07/31 06:54:11 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+25/07/31 06:54:11 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+25/07/31 06:54:11 INFO SharedState: Warehouse path is 'file:/opt/bitnami/spark/spark-warehouse'.
+25/07/31 06:54:13 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+25/07/31 06:54:13 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 06:54:13 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+25/07/31 06:54:13 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+25/07/31 06:54:13 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+25/07/31 06:54:13 INFO ObjectStore: ObjectStore, initialize called
+25/07/31 06:54:14 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+25/07/31 06:54:14 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+25/07/31 06:54:14 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.8:34944) with ID 0,  ResourceProfileId 0
+25/07/31 06:54:14 INFO BlockManagerMasterEndpoint: Registering block manager 172.18.0.8:43463 with 434.4 MiB RAM, BlockManagerId(0, 172.18.0.8, 43463, None)
+25/07/31 06:54:16 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+25/07/31 06:54:20 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+25/07/31 06:54:20 INFO ObjectStore: Initialized ObjectStore
+25/07/31 06:54:21 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+25/07/31 06:54:21 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@172.18.0.7
+25/07/31 06:54:21 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+25/07/31 06:54:21 INFO HiveMetaStore: Added admin role in metastore
+25/07/31 06:54:21 INFO HiveMetaStore: Added public role in metastore
+25/07/31 06:54:21 INFO HiveMetaStore: No user is added in admin role, since config is empty
+25/07/31 06:54:21 INFO HiveMetaStore: 0: get_database: default
+25/07/31 06:54:21 INFO audit: ugi=spark	ip=unknown-ip-addr	cmd=get_database: default	
+25/07/31 06:54:21 INFO HiveUtils: Initializing execution hive, version 2.3.9
+25/07/31 06:54:21 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 06:54:21 INFO SessionManager: Operation log root directory is created: /tmp/spark/operation_logs
+25/07/31 06:54:21 INFO SessionManager: HiveServer2: Background operation thread pool size: 100
+25/07/31 06:54:21 INFO SessionManager: HiveServer2: Background operation thread wait queue size: 100
+25/07/31 06:54:21 INFO SessionManager: HiveServer2: Background operation thread keepalive time: 10 seconds
+25/07/31 06:54:21 INFO AbstractService: Service:OperationManager is inited.
+25/07/31 06:54:21 INFO AbstractService: Service:SessionManager is inited.
+25/07/31 06:54:21 INFO AbstractService: Service: CLIService is inited.
+25/07/31 06:54:21 INFO AbstractService: Service:ThriftBinaryCLIService is inited.
+25/07/31 06:54:21 INFO AbstractService: Service: HiveServer2 is inited.
+25/07/31 06:54:21 INFO AbstractService: Service:OperationManager is started.
+25/07/31 06:54:21 INFO AbstractService: Service:SessionManager is started.
+25/07/31 06:54:21 INFO AbstractService: Service: CLIService is started.
+25/07/31 06:54:21 INFO AbstractService: Service:ThriftBinaryCLIService is started.
+25/07/31 06:54:22 INFO ThriftCLIService: Starting ThriftBinaryCLIService on port 10000 with 5...500 worker threads
+25/07/31 06:54:22 INFO AbstractService: Service:HiveServer2 is started.
+25/07/31 06:54:22 INFO HiveThriftServer2: HiveThriftServer2 started
+[38;5;6mspark [38;5;5m07:43:24.62 [0m[38;5;2mINFO [0m ==> 
+[38;5;6mspark [38;5;5m07:43:24.62 [0m[38;5;2mINFO [0m ==> [1mWelcome to the Bitnami spark container[0m
+[38;5;6mspark [38;5;5m07:43:24.62 [0m[38;5;2mINFO [0m ==> Subscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+[38;5;6mspark [38;5;5m07:43:24.63 [0m[38;5;2mINFO [0m ==> Submit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+[38;5;6mspark [38;5;5m07:43:24.63 [0m[38;5;2mINFO [0m ==> 
+
+starting org.apache.spark.sql.hive.thriftserver.HiveThriftServer2, logging to /opt/bitnami/spark/logs/spark--org.apache.spark.sql.hive.thriftserver.HiveThriftServer2-1-c1be953f9409.out
+Spark Command: /opt/bitnami/java/bin/java -cp /opt/bitnami/spark/conf/:/opt/bitnami/spark/jars/* -Xmx1g --add-exports java.base/sun.nio.ch=ALL-UNNAMED -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false org.apache.spark.deploy.SparkSubmit --master spark://spark-master:7077 --conf hive.server2.thrift.port=10000 --conf spark.driver.extraJavaOptions=--add-exports java.base/sun.nio.ch=ALL-UNNAMED --class org.apache.spark.sql.hive.thriftserver.HiveThriftServer2 --name Thrift JDBC/ODBC Server spark-internal
+========================================
+Warning: Ignoring non-Spark config property: hive.server2.thrift.port
+25/07/31 07:43:28 INFO HiveThriftServer2: Started daemon with process name: 21@c1be953f9409
+25/07/31 07:43:28 INFO SignalUtils: Registering signal handler for TERM
+25/07/31 07:43:28 INFO SignalUtils: Registering signal handler for HUP
+25/07/31 07:43:28 INFO SignalUtils: Registering signal handler for INT
+25/07/31 07:43:28 INFO HiveThriftServer2: Starting SparkContext
+25/07/31 07:43:28 INFO HiveConf: Found configuration file null
+25/07/31 07:43:28 INFO SparkContext: Running Spark version 3.4.1
+25/07/31 07:43:28 INFO ResourceUtils: ==============================================================
+25/07/31 07:43:28 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/07/31 07:43:28 INFO ResourceUtils: ==============================================================
+25/07/31 07:43:28 INFO SparkContext: Submitted application: Thrift JDBC/ODBC Server
+25/07/31 07:43:28 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/07/31 07:43:28 INFO ResourceProfile: Limiting resource is cpu
+25/07/31 07:43:28 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/07/31 07:43:28 INFO SecurityManager: Changing view acls to: spark
+25/07/31 07:43:28 INFO SecurityManager: Changing modify acls to: spark
+25/07/31 07:43:28 INFO SecurityManager: Changing view acls groups to: 
+25/07/31 07:43:28 INFO SecurityManager: Changing modify acls groups to: 
+25/07/31 07:43:28 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+25/07/31 07:43:28 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/07/31 07:43:29 INFO Utils: Successfully started service 'sparkDriver' on port 39297.
+25/07/31 07:43:29 INFO SparkEnv: Registering MapOutputTracker
+25/07/31 07:43:29 INFO SparkEnv: Registering BlockManagerMaster
+25/07/31 07:43:29 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/07/31 07:43:29 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/07/31 07:43:29 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/07/31 07:43:29 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-d47a448f-bd55-493b-aa7c-628817a85f6a
+25/07/31 07:43:29 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/07/31 07:43:29 INFO SparkEnv: Registering OutputCommitCoordinator
+25/07/31 07:43:29 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/07/31 07:43:29 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/07/31 07:43:30 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+25/07/31 07:43:30 INFO TransportClientFactory: Successfully created connection to spark-master/172.18.0.6:7077 after 53 ms (0 ms spent in bootstraps)
+25/07/31 07:43:30 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250731074330-0000
+25/07/31 07:43:30 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43245.
+25/07/31 07:43:30 INFO NettyBlockTransferService: Server created on c1be953f9409:43245
+25/07/31 07:43:30 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/07/31 07:43:30 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, c1be953f9409, 43245, None)
+25/07/31 07:43:30 INFO BlockManagerMasterEndpoint: Registering block manager c1be953f9409:43245 with 434.4 MiB RAM, BlockManagerId(driver, c1be953f9409, 43245, None)
+25/07/31 07:43:30 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, c1be953f9409, 43245, None)
+25/07/31 07:43:30 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, c1be953f9409, 43245, None)
+25/07/31 07:43:30 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250731074330-0000/0 on worker-20250731074329-172.18.0.8-33417 (172.18.0.8:33417) with 12 core(s)
+25/07/31 07:43:30 INFO StandaloneSchedulerBackend: Granted executor ID app-20250731074330-0000/0 on hostPort 172.18.0.8:33417 with 12 core(s), 1024.0 MiB RAM
+25/07/31 07:43:30 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250731074330-0000/0 is now RUNNING
+25/07/31 07:43:30 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+25/07/31 07:43:30 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+25/07/31 07:43:30 INFO SharedState: Warehouse path is 'file:/opt/bitnami/spark/spark-warehouse'.
+25/07/31 07:43:32 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+25/07/31 07:43:32 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 07:43:32 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+25/07/31 07:43:32 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+25/07/31 07:43:32 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+25/07/31 07:43:32 INFO ObjectStore: ObjectStore, initialize called
+25/07/31 07:43:32 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+25/07/31 07:43:32 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+25/07/31 07:43:34 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.18.0.8:58164) with ID 0,  ResourceProfileId 0
+25/07/31 07:43:34 INFO BlockManagerMasterEndpoint: Registering block manager 172.18.0.8:39557 with 434.4 MiB RAM, BlockManagerId(0, 172.18.0.8, 39557, None)
+25/07/31 07:43:35 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+25/07/31 07:43:39 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+25/07/31 07:43:39 INFO ObjectStore: Initialized ObjectStore
+25/07/31 07:43:39 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+25/07/31 07:43:39 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@172.18.0.7
+25/07/31 07:43:39 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+25/07/31 07:43:39 INFO HiveMetaStore: Added admin role in metastore
+25/07/31 07:43:39 INFO HiveMetaStore: Added public role in metastore
+25/07/31 07:43:39 INFO HiveMetaStore: No user is added in admin role, since config is empty
+25/07/31 07:43:39 INFO HiveMetaStore: 0: get_database: default
+25/07/31 07:43:39 INFO audit: ugi=spark	ip=unknown-ip-addr	cmd=get_database: default	
+25/07/31 07:43:40 INFO HiveUtils: Initializing execution hive, version 2.3.9
+25/07/31 07:43:40 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/opt/bitnami/spark/spark-warehouse
+25/07/31 07:43:40 INFO SessionManager: Operation log root directory is created: /tmp/spark/operation_logs
+25/07/31 07:43:40 INFO SessionManager: HiveServer2: Background operation thread pool size: 100
+25/07/31 07:43:40 INFO SessionManager: HiveServer2: Background operation thread wait queue size: 100
+25/07/31 07:43:40 INFO SessionManager: HiveServer2: Background operation thread keepalive time: 10 seconds
+25/07/31 07:43:40 INFO AbstractService: Service:OperationManager is inited.
+25/07/31 07:43:40 INFO AbstractService: Service:SessionManager is inited.
+25/07/31 07:43:40 INFO AbstractService: Service: CLIService is inited.
+25/07/31 07:43:40 INFO AbstractService: Service:ThriftBinaryCLIService is inited.
+25/07/31 07:43:40 INFO AbstractService: Service: HiveServer2 is inited.
+25/07/31 07:43:40 INFO AbstractService: Service:OperationManager is started.
+25/07/31 07:43:40 INFO AbstractService: Service:SessionManager is started.
+25/07/31 07:43:40 INFO AbstractService: Service: CLIService is started.
+25/07/31 07:43:40 INFO AbstractService: Service:ThriftBinaryCLIService is started.
+25/07/31 07:43:40 INFO ThriftCLIService: Starting ThriftBinaryCLIService on port 10000 with 5...500 worker threads
+25/07/31 07:43:40 INFO AbstractService: Service:HiveServer2 is started.
+25/07/31 07:43:40 INFO HiveThriftServer2: HiveThriftServer2 started
