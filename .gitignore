@@ -1,0 +1,4 @@
+*.jar
+*_checkpoints
+metastore_db/
+spark-warehouse/
