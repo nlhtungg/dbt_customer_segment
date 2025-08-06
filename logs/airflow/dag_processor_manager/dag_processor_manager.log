@@ -1,0 +1,138 @@
+[2025-08-06T09:05:22.609+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2025-08-06T09:05:22.610+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2025-08-06T09:05:22.611+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-08-06T09:05:22.611+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-08-06T09:05:24.257+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2025-08-06T09:05:55.952+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dags_airflow/ex.py                                                 70  0.15s             0           0
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                        71  0.02s             0           0
+================================================================================
+[2025-08-06T09:06:26.226+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  1.32s           2025-08-06T09:06:22
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.05s           2025-08-06T09:06:00
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:06:00
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  0.28s           2025-08-06T09:06:00
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                       108  0.01s             0           0  0.07s           2025-08-06T09:05:55
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  25.06s          2025-08-06T09:06:20
+================================================================================
+[2025-08-06T09:07:14.063+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar           132  0.09s             0           0  1.32s           2025-08-06T09:06:22
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.08s           2025-08-06T09:06:36
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.06s           2025-08-06T09:06:36
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  0.36s           2025-08-06T09:06:36
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.05s           2025-08-06T09:06:26
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  22.74s          2025-08-06T09:07:14
+================================================================================
+[2025-08-06T09:07:44.266+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  4.70s           2025-08-06T09:07:18
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.05s           2025-08-06T09:07:18
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:07:18
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  0.31s           2025-08-06T09:07:18
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.09s           2025-08-06T09:07:14
+/opt/airflow/dags/dags_airflow/ex.py                                                156  0.01s             1           0  22.74s          2025-08-06T09:07:14
+================================================================================
+[2025-08-06T09:08:16.767+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar           181  0.11s             0           0  4.70s           2025-08-06T09:07:18
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.06s           2025-08-06T09:07:53
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:07:53
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  23.70s          2025-08-06T09:08:16
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.07s           2025-08-06T09:07:44
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  2.12s           2025-08-06T09:07:46
+================================================================================
+[2025-08-06T09:08:51.519+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  2.21s           2025-08-06T09:08:18
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.06s           2025-08-06T09:08:23
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:08:23
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar    205  0.02s             0           0  23.70s          2025-08-06T09:08:16
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.06s           2025-08-06T09:08:19
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  3.01s           2025-08-06T09:08:19
+================================================================================
+[2025-08-06T09:09:25.848+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  1.52s           2025-08-06T09:09:12
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.06s           2025-08-06T09:09:11
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:09:11
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar    230  0.02s             0           0  0.29s           2025-08-06T09:08:51
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.06s           2025-08-06T09:08:51
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  19.82s          2025-08-06T09:09:11
+================================================================================
+[2025-08-06T09:10:01.738+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar           254  0.08s             0           0  1.52s           2025-08-06T09:09:12
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.07s           2025-08-06T09:09:42
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:09:42
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  0.30s           2025-08-06T09:09:26
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                                              0           0  0.06s           2025-08-06T09:09:26
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  1.77s           2025-08-06T09:09:43
+================================================================================
+[2025-08-06T09:10:22.769+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2025-08-06T09:10:23.486+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2025-08-06T09:10:47.812+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  4.05s           2025-08-06T09:10:05
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.07s           2025-08-06T09:10:12
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.04s           2025-08-06T09:10:12
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  0.46s           2025-08-06T09:10:06
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                       299  0.01s             0           0  0.06s           2025-08-06T09:10:01
+/opt/airflow/dags/dags_airflow/ex.py                                                298  0.10s             1           0  1.83s           2025-08-06T09:10:15
+================================================================================
+[2025-08-06T09:11:18.081+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_main_project/jars/aws-java-sdk-bundle-1.11.1026.jar                                  0           0  1.24s           2025-08-06T09:11:12
+/opt/airflow/dags/dbt_main_project/jars/hadoop-aws-3.3.1.jar                                               0           0  0.06s           2025-08-06T09:10:52
+/opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar                                            0           0  0.05s           2025-08-06T09:10:52
+/opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar                           0           0  19.78s          2025-08-06T09:11:11
+/opt/airflow/dags/dbt_main_project/jars/postgresql-42.7.7.jar                       323  0.01s             0           0  0.06s           2025-08-06T09:10:47
+/opt/airflow/dags/dags_airflow/ex.py                                                                       1           0  4.37s           2025-08-06T09:10:52
+================================================================================
+[2025-08-06T09:11:31.141+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

@@ -1,0 +1,285 @@
+2025-08-06 08:39:57,128 [main] INFO  org.apache.spark.deploy.master.Master - Started daemon with process name: 33@7dff839d5345
+2025-08-06 08:39:57,152 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for TERM
+2025-08-06 08:39:57,155 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for HUP
+2025-08-06 08:39:57,156 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for INT
+2025-08-06 08:39:57,753 [main] INFO  org.apache.spark.SecurityManager - Changing view acls to: spark
+2025-08-06 08:39:57,756 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls to: spark
+2025-08-06 08:39:57,763 [main] INFO  org.apache.spark.SecurityManager - Changing view acls groups to: 
+2025-08-06 08:39:57,765 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls groups to: 
+2025-08-06 08:39:57,770 [main] INFO  org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+2025-08-06 08:39:58,252 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-08-06 08:39:59,529 [main] INFO  org.apache.spark.util.Utils - Successfully started service 'sparkMaster' on port 7077.
+2025-08-06 08:39:59,584 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Starting Spark master at spark://spark-master:7077
+2025-08-06 08:39:59,611 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Running Spark version 3.4.1
+2025-08-06 08:39:59,721 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.util.log - Logging initialized @7029ms to org.sparkproject.jetty.util.log.Slf4jLog
+2025-08-06 08:39:59,844 [dispatcher-event-loop-1] INFO  org.apache.spark.ui.JettyUtils - Start Jetty 0.0.0.0:8080 for MasterUI
+2025-08-06 08:39:59,872 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 17.0.9+11-LTS
+2025-08-06 08:39:59,929 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - Started @7238ms
+2025-08-06 08:40:00,035 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.AbstractConnector - Started ServerConnector@5cb6b143{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 08:40:00,036 [dispatcher-event-loop-1] INFO  org.apache.spark.util.Utils - Successfully started service 'MasterUI' on port 8080.
+2025-08-06 08:40:00,102 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@45beb7bd{/app,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,119 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@60765b3b{/app/json,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,123 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@13fae68a{/,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,127 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@1d0318e6{/json,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,144 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@26e06aa7{/static,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,149 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@5d0ad57{/app/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,155 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@38b674c4{/driver/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,159 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@5461915c{/workers/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,164 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.ui.MasterWebUI - Bound MasterWebUI to 0.0.0.0, and started at http://7dff839d5345:8080
+2025-08-06 08:40:00,543 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@2f36b74b{/metrics/master/json,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,551 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@7c889d6f{/metrics/applications/json,null,AVAILABLE,@Spark}
+2025-08-06 08:40:00,603 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - I have been elected leader! New state: ALIVE
+2025-08-06 08:40:01,309 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Registering worker 172.18.0.11:39517 with 12 cores, 6.6 GiB RAM
+2025-08-06 08:40:02,193 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registering app Thrift JDBC/ODBC Server
+2025-08-06 08:40:02,221 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registered app Thrift JDBC/ODBC Server with ID app-20250806084002-0000
+2025-08-06 08:40:02,229 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:40:02,521 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084002-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 08:40:02,522 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:40:02,530 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806084002-0000/0 on worker worker-20250806083959-172.18.0.11-39517
+2025-08-06 08:40:02,732 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:41:08,736 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084002-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:41:08,737 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:41:08,753 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084002-0000 requests to kill executors: 0
+2025-08-06 08:41:08,756 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:41:08,762 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084002-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:41:08,762 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:41:08,826 [dispatcher-event-loop-4] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806084002-0000/0
+2025-08-06 08:41:37,652 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:37896 got disassociated, removing it.
+2025-08-06 08:41:37,654 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 172.18.0.12:41348 got disassociated, removing it.
+2025-08-06 08:41:37,655 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:39517 got disassociated, removing it.
+2025-08-06 08:41:37,657 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Removing worker worker-20250806083959-172.18.0.11-39517 on 172.18.0.11:39517
+2025-08-06 08:41:37,660 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Telling app of lost worker: worker-20250806083959-172.18.0.11-39517
+2025-08-06 08:41:37,666 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084002-0000 with rpId: 0
+2025-08-06 08:41:37,668 [dispatcher-event-loop-8] WARN  org.apache.spark.deploy.master.Master - App app-20250806084002-0000 requires more resource than any of Workers could have.
+2025-08-06 08:41:37,669 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 1662e5eff489:39357 got disassociated, removing it.
+2025-08-06 08:41:37,671 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Removing app app-20250806084002-0000
+2025-08-06 08:42:29,304 [main] INFO  org.apache.spark.deploy.master.Master - Started daemon with process name: 34@a25f3df9aa78
+2025-08-06 08:42:29,345 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for TERM
+2025-08-06 08:42:29,354 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for HUP
+2025-08-06 08:42:29,355 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for INT
+2025-08-06 08:42:30,102 [main] INFO  org.apache.spark.SecurityManager - Changing view acls to: spark
+2025-08-06 08:42:30,110 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls to: spark
+2025-08-06 08:42:30,113 [main] INFO  org.apache.spark.SecurityManager - Changing view acls groups to: 
+2025-08-06 08:42:30,115 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls groups to: 
+2025-08-06 08:42:30,118 [main] INFO  org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+2025-08-06 08:42:30,569 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-08-06 08:42:31,600 [main] INFO  org.apache.spark.util.Utils - Successfully started service 'sparkMaster' on port 7077.
+2025-08-06 08:42:31,650 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Starting Spark master at spark://spark-master:7077
+2025-08-06 08:42:31,666 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Running Spark version 3.4.1
+2025-08-06 08:42:31,755 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.util.log - Logging initialized @6362ms to org.sparkproject.jetty.util.log.Slf4jLog
+2025-08-06 08:42:31,860 [dispatcher-event-loop-1] INFO  org.apache.spark.ui.JettyUtils - Start Jetty 0.0.0.0:8080 for MasterUI
+2025-08-06 08:42:31,895 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 17.0.9+11-LTS
+2025-08-06 08:42:31,941 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - Started @6550ms
+2025-08-06 08:42:32,060 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.AbstractConnector - Started ServerConnector@150b7542{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 08:42:32,061 [dispatcher-event-loop-1] INFO  org.apache.spark.util.Utils - Successfully started service 'MasterUI' on port 8080.
+2025-08-06 08:42:32,134 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@c422ae6{/app,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,144 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@67381200{/app/json,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,153 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@1e2151e{/,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,166 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@1c305d8e{/json,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,191 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@46c05b3d{/static,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,197 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@33239f{/app/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,200 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@75f3dd57{/driver/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,205 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@f4762ba{/workers/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,209 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.ui.MasterWebUI - Bound MasterWebUI to 0.0.0.0, and started at http://a25f3df9aa78:8080
+2025-08-06 08:42:32,616 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@72fa7892{/metrics/master/json,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,620 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@4b165d1e{/metrics/applications/json,null,AVAILABLE,@Spark}
+2025-08-06 08:42:32,662 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - I have been elected leader! New state: ALIVE
+2025-08-06 08:42:33,333 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Registering worker 172.18.0.11:33539 with 12 cores, 6.6 GiB RAM
+2025-08-06 08:42:34,248 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registering app Thrift JDBC/ODBC Server
+2025-08-06 08:42:34,284 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registered app Thrift JDBC/ODBC Server with ID app-20250806084234-0000
+2025-08-06 08:42:34,289 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:42:34,552 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 08:42:34,554 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:42:34,564 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806084234-0000/0 on worker worker-20250806084231-172.18.0.11-33539
+2025-08-06 08:42:34,806 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:43:40,420 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:43:40,424 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:43:40,463 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requests to kill executors: 0
+2025-08-06 08:43:40,473 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:43:40,479 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:43:40,484 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:43:40,565 [dispatcher-event-loop-4] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806084234-0000/0
+2025-08-06 08:46:10,798 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 08:46:10,800 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:46:10,802 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806084234-0000/1 on worker worker-20250806084231-172.18.0.11-33539
+2025-08-06 08:46:10,900 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:46:14,228 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:46:14,228 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:47:14,577 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requests to kill executors: 1
+2025-08-06 08:47:14,579 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:47:14,585 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806084234-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:47:14,586 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:47:14,673 [dispatcher-event-loop-5] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806084234-0000/1
+2025-08-06 08:53:23,791 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:35204 got disassociated, removing it.
+2025-08-06 08:53:23,796 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:33539 got disassociated, removing it.
+2025-08-06 08:53:23,798 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Removing worker worker-20250806084231-172.18.0.11-33539 on 172.18.0.11:33539
+2025-08-06 08:53:23,802 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Telling app of lost worker: worker-20250806084231-172.18.0.11-33539
+2025-08-06 08:53:23,812 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806084234-0000 with rpId: 0
+2025-08-06 08:53:23,815 [dispatcher-event-loop-0] WARN  org.apache.spark.deploy.master.Master - App app-20250806084234-0000 requires more resource than any of Workers could have.
+2025-08-06 08:53:23,857 [rpc-server-4-2] WARN  org.apache.spark.network.server.TransportChannelHandler - Exception in connection from /172.18.0.12:59938
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+2025-08-06 08:53:23,891 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 172.18.0.12:59938 got disassociated, removing it.
+2025-08-06 08:53:23,892 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - 5f55bbfe1a00:40351 got disassociated, removing it.
+2025-08-06 08:53:23,893 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Removing app app-20250806084234-0000
+2025-08-06 08:54:59,574 [main] INFO  org.apache.spark.deploy.master.Master - Started daemon with process name: 34@2f455daccf16
+2025-08-06 08:54:59,598 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for TERM
+2025-08-06 08:54:59,602 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for HUP
+2025-08-06 08:54:59,603 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for INT
+2025-08-06 08:55:00,547 [main] INFO  org.apache.spark.SecurityManager - Changing view acls to: spark
+2025-08-06 08:55:00,551 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls to: spark
+2025-08-06 08:55:00,564 [main] INFO  org.apache.spark.SecurityManager - Changing view acls groups to: 
+2025-08-06 08:55:00,570 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls groups to: 
+2025-08-06 08:55:00,576 [main] INFO  org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+2025-08-06 08:55:01,056 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-08-06 08:55:01,986 [main] INFO  org.apache.spark.util.Utils - Successfully started service 'sparkMaster' on port 7077.
+2025-08-06 08:55:02,199 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Starting Spark master at spark://spark-master:7077
+2025-08-06 08:55:02,233 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Running Spark version 3.4.1
+2025-08-06 08:55:02,418 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.util.log - Logging initialized @6945ms to org.sparkproject.jetty.util.log.Slf4jLog
+2025-08-06 08:55:02,544 [dispatcher-event-loop-1] INFO  org.apache.spark.ui.JettyUtils - Start Jetty 0.0.0.0:8080 for MasterUI
+2025-08-06 08:55:02,619 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 17.0.9+11-LTS
+2025-08-06 08:55:02,703 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - Started @7231ms
+2025-08-06 08:55:02,795 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.AbstractConnector - Started ServerConnector@199887e4{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 08:55:02,798 [dispatcher-event-loop-1] INFO  org.apache.spark.util.Utils - Successfully started service 'MasterUI' on port 8080.
+2025-08-06 08:55:02,861 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@2498f23f{/app,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,876 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@6b920945{/app/json,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,887 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@f9f221e{/,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,893 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@31ac3e17{/json,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,919 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@55757be7{/static,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,926 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@77c7815d{/app/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,931 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@72a9ee39{/driver/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,937 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@6de1975e{/workers/kill,null,AVAILABLE,@Spark}
+2025-08-06 08:55:02,944 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.ui.MasterWebUI - Bound MasterWebUI to 0.0.0.0, and started at http://2f455daccf16:8080
+2025-08-06 08:55:03,433 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@55682b93{/metrics/master/json,null,AVAILABLE,@Spark}
+2025-08-06 08:55:03,437 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@63b8e781{/metrics/applications/json,null,AVAILABLE,@Spark}
+2025-08-06 08:55:03,481 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - I have been elected leader! New state: ALIVE
+2025-08-06 08:55:04,825 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Registering worker 172.18.0.12:37163 with 12 cores, 6.6 GiB RAM
+2025-08-06 08:55:05,193 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registering app Thrift JDBC/ODBC Server
+2025-08-06 08:55:05,219 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Registered app Thrift JDBC/ODBC Server with ID app-20250806085505-0000
+2025-08-06 08:55:05,225 [dispatcher-event-loop-6] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:55:05,507 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Application app-20250806085505-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 08:55:05,512 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:55:05,520 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806085505-0000/0 on worker worker-20250806085503-172.18.0.12-37163
+2025-08-06 08:55:05,909 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:56:11,307 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Application app-20250806085505-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:56:11,312 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:56:11,368 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806085505-0000 requests to kill executors: 0
+2025-08-06 08:56:11,379 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:56:11,386 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Application app-20250806085505-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 08:56:11,387 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 08:56:11,506 [dispatcher-event-loop-4] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806085505-0000/0
+2025-08-06 09:03:44,772 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - 172.18.0.12:55584 got disassociated, removing it.
+2025-08-06 09:03:44,776 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - 172.18.0.12:37163 got disassociated, removing it.
+2025-08-06 09:03:44,780 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Removing worker worker-20250806085503-172.18.0.12-37163 on 172.18.0.12:37163
+2025-08-06 09:03:44,782 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Telling app of lost worker: worker-20250806085503-172.18.0.12-37163
+2025-08-06 09:03:44,793 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806085505-0000 with rpId: 0
+2025-08-06 09:03:44,797 [dispatcher-event-loop-7] WARN  org.apache.spark.deploy.master.Master - App app-20250806085505-0000 requires more resource than any of Workers could have.
+2025-08-06 09:03:44,833 [rpc-server-4-2] WARN  org.apache.spark.network.server.TransportChannelHandler - Exception in connection from /172.18.0.11:59954
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+2025-08-06 09:03:44,868 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:59954 got disassociated, removing it.
+2025-08-06 09:03:44,868 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - f0e4b60b3686:40913 got disassociated, removing it.
+2025-08-06 09:03:44,869 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Removing app app-20250806085505-0000
+2025-08-06 09:04:31,412 [main] INFO  org.apache.spark.deploy.master.Master - Started daemon with process name: 33@9a68286da084
+2025-08-06 09:04:31,437 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for TERM
+2025-08-06 09:04:31,447 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for HUP
+2025-08-06 09:04:31,448 [main] INFO  org.apache.spark.util.SignalUtils - Registering signal handler for INT
+2025-08-06 09:04:32,031 [main] INFO  org.apache.spark.SecurityManager - Changing view acls to: spark
+2025-08-06 09:04:32,036 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls to: spark
+2025-08-06 09:04:32,039 [main] INFO  org.apache.spark.SecurityManager - Changing view acls groups to: 
+2025-08-06 09:04:32,042 [main] INFO  org.apache.spark.SecurityManager - Changing modify acls groups to: 
+2025-08-06 09:04:32,044 [main] INFO  org.apache.spark.SecurityManager - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+2025-08-06 09:04:32,574 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2025-08-06 09:04:33,691 [main] INFO  org.apache.spark.util.Utils - Successfully started service 'sparkMaster' on port 7077.
+2025-08-06 09:04:33,768 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Starting Spark master at spark://spark-master:7077
+2025-08-06 09:04:33,783 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Running Spark version 3.4.1
+2025-08-06 09:04:33,907 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.util.log - Logging initialized @6586ms to org.sparkproject.jetty.util.log.Slf4jLog
+2025-08-06 09:04:34,095 [dispatcher-event-loop-1] INFO  org.apache.spark.ui.JettyUtils - Start Jetty 0.0.0.0:8080 for MasterUI
+2025-08-06 09:04:34,145 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - jetty-9.4.50.v20221201; built: 2022-12-01T22:07:03.915Z; git: da9a0b30691a45daf90a9f17b5defa2f1434f882; jvm 17.0.9+11-LTS
+2025-08-06 09:04:34,231 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.Server - Started @6914ms
+2025-08-06 09:04:34,349 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.AbstractConnector - Started ServerConnector@5cb6b143{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-08-06 09:04:34,353 [dispatcher-event-loop-1] INFO  org.apache.spark.util.Utils - Successfully started service 'MasterUI' on port 8080.
+2025-08-06 09:04:34,464 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@45beb7bd{/app,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,479 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@60765b3b{/app/json,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,483 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@13fae68a{/,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,488 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@1d0318e6{/json,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,548 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@26e06aa7{/static,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,561 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@5d0ad57{/app/kill,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,571 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@38b674c4{/driver/kill,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,577 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@5461915c{/workers/kill,null,AVAILABLE,@Spark}
+2025-08-06 09:04:34,585 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.ui.MasterWebUI - Bound MasterWebUI to 0.0.0.0, and started at http://9a68286da084:8080
+2025-08-06 09:04:35,057 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@2f36b74b{/metrics/master/json,null,AVAILABLE,@Spark}
+2025-08-06 09:04:35,070 [dispatcher-event-loop-1] INFO  org.sparkproject.jetty.server.handler.ContextHandler - Started o.s.j.s.ServletContextHandler@7c889d6f{/metrics/applications/json,null,AVAILABLE,@Spark}
+2025-08-06 09:04:35,117 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - I have been elected leader! New state: ALIVE
+2025-08-06 09:04:36,082 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Registering worker 172.18.0.11:33083 with 12 cores, 6.6 GiB RAM
+2025-08-06 09:04:36,983 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Registering app Thrift JDBC/ODBC Server
+2025-08-06 09:04:37,013 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Registered app Thrift JDBC/ODBC Server with ID app-20250806090436-0000
+2025-08-06 09:04:37,019 [dispatcher-event-loop-7] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:04:37,281 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 09:04:37,283 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:04:37,293 [dispatcher-event-loop-8] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806090436-0000/0 on worker worker-20250806090434-172.18.0.11-33083
+2025-08-06 09:04:37,537 [dispatcher-event-loop-9] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:05:43,588 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:05:43,599 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:05:43,693 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requests to kill executors: 0
+2025-08-06 09:05:43,709 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:05:43,715 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:05:43,716 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:05:43,929 [dispatcher-event-loop-4] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806090436-0000/0
+2025-08-06 09:07:06,843 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 09:07:06,844 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:07:06,846 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806090436-0000/1 on worker worker-20250806090434-172.18.0.11-33083
+2025-08-06 09:07:06,981 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:07:13,984 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:07:13,985 [dispatcher-event-loop-1] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:08:24,167 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requests to kill executors: 1
+2025-08-06 09:08:24,169 [dispatcher-event-loop-10] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:08:24,175 [dispatcher-event-loop-11] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:08:24,176 [dispatcher-event-loop-11] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:08:24,250 [dispatcher-event-loop-0] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806090436-0000/1
+2025-08-06 09:08:30,764 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 1).
+2025-08-06 09:08:30,765 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:08:30,766 [dispatcher-event-loop-2] INFO  org.apache.spark.deploy.master.Master - Launching executor app-20250806090436-0000/2 on worker worker-20250806090434-172.18.0.11-33083
+2025-08-06 09:08:30,825 [dispatcher-event-loop-3] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:08:36,899 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:08:36,900 [dispatcher-event-loop-5] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:09:45,798 [dispatcher-event-loop-11] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requests to kill executors: 2
+2025-08-06 09:09:45,799 [dispatcher-event-loop-11] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:09:45,803 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Application app-20250806090436-0000 requested executors: Map(Profile: id = 0, executor resources: cores -> name: cores, amount: 2, script: , vendor: ,memory -> name: memory, amount: 1024, script: , vendor: ,offHeap -> name: offHeap, amount: 0, script: , vendor: , task resources: cpus -> name: cpus, amount: 1.0 -> 0).
+2025-08-06 09:09:45,803 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:09:45,893 [dispatcher-event-loop-2] WARN  org.apache.spark.deploy.master.Master - Got status update for unknown executor app-20250806090436-0000/2
+2025-08-06 09:11:40,369 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:40968 got disassociated, removing it.
+2025-08-06 09:11:40,375 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - 172.18.0.11:33083 got disassociated, removing it.
+2025-08-06 09:11:40,378 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Removing worker worker-20250806090434-172.18.0.11-33083 on 172.18.0.11:33083
+2025-08-06 09:11:40,383 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Telling app of lost worker: worker-20250806090434-172.18.0.11-33083
+2025-08-06 09:11:40,395 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Start scheduling for app app-20250806090436-0000 with rpId: 0
+2025-08-06 09:11:40,401 [dispatcher-event-loop-0] WARN  org.apache.spark.deploy.master.Master - App app-20250806090436-0000 requires more resource than any of Workers could have.
+2025-08-06 09:11:40,405 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - 172.18.0.12:33478 got disassociated, removing it.
+2025-08-06 09:11:40,406 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - c15f4bd07d87:43895 got disassociated, removing it.
+2025-08-06 09:11:40,408 [dispatcher-event-loop-0] INFO  org.apache.spark.deploy.master.Master - Removing app app-20250806090436-0000

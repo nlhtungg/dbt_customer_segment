@@ -1,0 +1,50 @@
+[2025-08-06T09:06:00.889+0000] {processor.py:157} INFO - Started process (PID=87) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:00.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:06:00.892+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:06:00.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:00.897+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:00.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.029 seconds
+[2025-08-06T09:06:36.151+0000] {processor.py:157} INFO - Started process (PID=111) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:36.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:06:36.157+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:06:36.157+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:36.161+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:06:36.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.035 seconds
+[2025-08-06T09:07:18.846+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:18.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:07:18.850+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:07:18.849+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:18.855+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:18.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.030 seconds
+[2025-08-06T09:07:53.242+0000] {processor.py:157} INFO - Started process (PID=160) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:53.243+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:07:53.246+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:07:53.246+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:53.250+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:07:53.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.027 seconds
+[2025-08-06T09:08:23.930+0000] {processor.py:157} INFO - Started process (PID=185) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:08:23.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:08:23.934+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:08:23.934+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:08:23.938+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:08:23.954+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.027 seconds
+[2025-08-06T09:09:11.529+0000] {processor.py:157} INFO - Started process (PID=229) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:11.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:09:11.533+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:09:11.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:11.537+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:11.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.030 seconds
+[2025-08-06T09:09:42.482+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:42.483+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:09:42.485+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:09:42.485+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:42.489+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:09:42.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.027 seconds
+[2025-08-06T09:10:12.883+0000] {processor.py:157} INFO - Started process (PID=277) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:12.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:10:12.886+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:10:12.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:12.890+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:12.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.025 seconds
+[2025-08-06T09:10:52.241+0000] {processor.py:157} INFO - Started process (PID=302) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:52.242+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:10:52.245+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:10:52.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:52.250+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:10:52.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.029 seconds
+[2025-08-06T09:11:23.309+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:11:23.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar for tasks to queue
+[2025-08-06T09:11:23.314+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:11:23.314+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:11:23.318+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar
+[2025-08-06T09:11:23.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/hadoop-client-3.3.1.jar took 0.030 seconds

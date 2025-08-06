@@ -1,0 +1,42 @@
+[2025-08-06T09:08:20.948+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_seed manual__2025-08-06T09:08:12.892416+00:00 [queued]>
+[2025-08-06T09:08:20.956+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_seed manual__2025-08-06T09:08:12.892416+00:00 [queued]>
+[2025-08-06T09:08:20.957+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-08-06T09:08:20.970+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtSeedLocalOperator): dbt_processing.orders_seed> on 2025-08-06 09:08:12.892416+00:00
+[2025-08-06T09:08:20.978+0000] {standard_task_runner.py:57} INFO - Started process 187 to run task
+[2025-08-06T09:08:20.981+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_iceberg', 'dbt_processing.orders_seed', 'manual__2025-08-06T09:08:12.892416+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dags_***/ex.py', '--cfg-path', '/tmp/tmpzyxz95um']
+[2025-08-06T09:08:20.983+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask dbt_processing.orders_seed
+[2025-08-06T09:08:21.050+0000] {task_command.py:416} INFO - Running <TaskInstance: example_iceberg.dbt_processing.orders_seed manual__2025-08-06T09:08:12.892416+00:00 [running]> on host cd1ed1f972af
+[2025-08-06T09:08:21.157+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_iceberg' AIRFLOW_CTX_TASK_ID='dbt_processing.orders_seed' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T09:08:12.892416+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T09:08:12.892416+00:00'
+[2025-08-06T09:08:22.177+0000] {local.py:244} INFO - dbtRunner is available. Using dbtRunner for invoking dbt.
+[2025-08-06T09:08:22.179+0000] {local.py:464} INFO - Cloning project to writable temp directory /tmp/tmpp6_qrbvt from /opt/airflow/dags/dbt_main_project
+[2025-08-06T09:08:22.183+0000] {local.py:484} INFO - Partial parse is enabled and the latest partial parse file is /tmp/cosmos/example_iceberg__dbt_processing/target/partial_parse.msgpack
+[2025-08-06T09:08:22.192+0000] {config.py:364} INFO - Profile caching is enable.
+[2025-08-06T09:08:22.194+0000] {base.py:73} INFO - Using connection ID 'dbt_spark' for task execution.
+[2025-08-06T09:08:22.194+0000] {config.py:344} INFO - Profile found in cache using profile: /tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27/profiles.yml.
+[2025-08-06T09:08:22.195+0000] {runner.py:60} INFO - Trying to run dbtRunner with:
+ ['seed', '--vars', "processing_date: '1970-01-01'\n", '--models', 'orders', '--project-dir', '/tmp/tmpp6_qrbvt', '--profiles-dir', '/tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27', '--profile', 'dbt_main_project', '--target', 'dev', '--no-static-parser']
+ in /tmp/tmpp6_qrbvt
+[2025-08-06T09:08:22.259+0000] {logging_mixin.py:154} INFO - 09:08:22  Running with dbt=1.9.0-b2
+[2025-08-06T09:08:22.507+0000] {logging_mixin.py:154} INFO - 09:08:22  Registered adapter: spark=1.8.0
+[2025-08-06T09:08:22.808+0000] {logging_mixin.py:154} INFO - 09:08:22  Found 1 model, 1 seed, 463 macros
+[2025-08-06T09:08:22.810+0000] {logging_mixin.py:154} INFO - 09:08:22
+[2025-08-06T09:08:22.811+0000] {logging_mixin.py:154} INFO - 09:08:22  Concurrency: 1 threads (target='dev')
+[2025-08-06T09:08:22.812+0000] {logging_mixin.py:154} INFO - 09:08:22
+[2025-08-06T09:08:23.206+0000] {logging_mixin.py:154} INFO - 09:08:23  1 of 1 START seed file default.orders .......................................... [RUN]
+[2025-08-06T09:08:37.137+0000] {logging_mixin.py:154} INFO - 09:08:37  1 of 1 OK loaded seed file default.orders ...................................... [INSERT 1000 in 13.93s]
+[2025-08-06T09:08:37.220+0000] {logging_mixin.py:154} INFO - 09:08:37
+[2025-08-06T09:08:37.222+0000] {logging_mixin.py:154} INFO - 09:08:37  Finished running 1 seed in 0 hours 0 minutes and 14.41 seconds (14.41s).
+[2025-08-06T09:08:37.276+0000] {logging_mixin.py:154} INFO - 09:08:37
+[2025-08-06T09:08:37.278+0000] {logging_mixin.py:154} INFO - 09:08:37  Completed successfully
+[2025-08-06T09:08:37.280+0000] {logging_mixin.py:154} INFO - 09:08:37
+[2025-08-06T09:08:37.281+0000] {logging_mixin.py:154} INFO - 09:08:37  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-08-06T09:08:38.430+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/manifest/v12.json is above dbt-ol supported version 7. This might cause errors.
+[2025-08-06T09:08:38.431+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/run-results/v6.json is above dbt-ol supported version 5. This might cause errors.
+[2025-08-06T09:08:38.435+0000] {local.py:538} INFO - Inlets: []
+[2025-08-06T09:08:38.436+0000] {local.py:539} INFO - Outlets: []
+[2025-08-06T09:08:38.436+0000] {local.py:761} INFO - Assigning inlets/outlets without DatasetAlias
+[2025-08-06T09:08:38.437+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-08-06T09:08:38.467+0000] {dag.py:3722} INFO - Setting next_dagrun for example_iceberg to 2025-08-06T00:00:00+00:00, run_after=2025-08-07T00:00:00+00:00
+[2025-08-06T09:08:38.509+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_iceberg, task_id=dbt_processing.orders_seed, execution_date=20250806T090812, start_date=20250806T090820, end_date=20250806T090838
+[2025-08-06T09:08:38.580+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-08-06T09:08:38.611+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

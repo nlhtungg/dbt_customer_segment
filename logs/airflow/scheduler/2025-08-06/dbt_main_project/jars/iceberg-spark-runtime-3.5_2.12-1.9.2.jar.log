@@ -1,0 +1,40 @@
+[2025-08-06T09:06:00.465+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:00.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:06:00.469+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:06:00.469+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:00.697+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:00.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.251 seconds
+[2025-08-06T09:06:35.894+0000] {processor.py:157} INFO - Started process (PID=109) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:35.896+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:06:35.899+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:06:35.899+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:36.198+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:06:36.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.325 seconds
+[2025-08-06T09:07:18.670+0000] {processor.py:157} INFO - Started process (PID=134) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:18.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:07:18.675+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:07:18.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:18.934+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:18.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.283 seconds
+[2025-08-06T09:07:53.080+0000] {processor.py:157} INFO - Started process (PID=158) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:53.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:07:53.084+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:07:53.084+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:53.317+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:07:53.333+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.256 seconds
+[2025-08-06T09:08:51.516+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:08:51.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:08:51.531+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:08:51.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:08:51.757+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:08:51.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.261 seconds
+[2025-08-06T09:09:25.847+0000] {processor.py:157} INFO - Started process (PID=230) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:09:25.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:09:25.852+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:09:25.852+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:09:26.098+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:09:26.117+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.274 seconds
+[2025-08-06T09:10:05.701+0000] {processor.py:157} INFO - Started process (PID=256) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:05.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:10:05.704+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:10:05.704+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:06.109+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:06.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.426 seconds
+[2025-08-06T09:10:52.076+0000] {processor.py:157} INFO - Started process (PID=300) to work on /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:52.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar for tasks to queue
+[2025-08-06T09:10:52.080+0000] {logging_mixin.py:154} INFO - [2025-08-06T09:10:52.080+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:52.341+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+[2025-08-06T09:10:52.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_main_project/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar took 0.284 seconds

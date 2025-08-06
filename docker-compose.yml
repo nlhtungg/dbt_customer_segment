@@ -24,7 +24,8 @@ services:
     ports:
       - "9083:9083"
     volumes:
-      - ./conf/hive-site.xml:/opt/hive/conf/hive-site.xml   # Cấu hình Hive
+      - ./conf/hive/hive-site.xml:/opt/hive/conf/hive-site.xml   # Cấu hình Hive
+      - ./conf/hive/hive-log4j2.properties:/opt/hive/conf/hive-log4j2.properties
       - ./jars/postgresql-42.7.7.jar:/opt/hive/lib/postgresql-42.7.7.jar
       - ./jars/hadoop-aws-3.3.1.jar:/opt/hive/lib/hadoop-aws-3.3.1.jar
       - ./jars/aws-java-sdk-bundle-1.11.1026.jar:/opt/hive/lib/aws-java-sdk-bundle-1.11.1026.jar
@@ -46,6 +47,17 @@ services:
     volumes:
       - minio_data:/data
 
+  minio-init:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+        sleep 10;
+        mc alias set myminio http://minio:9000 minioadmin minioadmin;
+        mc mb myminio/iceberg-warehouse;
+        mc policy set myminio/iceberg-warehouse public"   
+
   spark-master:
     image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
     container_name: spark-master
@@ -53,16 +65,18 @@ services:
       - hive-metastore
       - minio
     environment:
-      SPARK_MODE: master
-      SPARK_MASTER_HOST: spark-master
-      SPARK_MASTER_PORT: 7077
-      SPARK_MASTER_WEBUI_PORT: 8080
-      SPARK_LOG_LEVEL: WARN
+      - SPARK_MODE=master
+      - SPARK_MASTER_HOST=spark-master
+      - SPARK_MASTER_PORT=7077
+      - SPARK_MASTER_WEBUI_PORT=8080
+      - SPARK_LOG_LEVEL=WARN
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
     ports:
       - "7077:7077"
       - "8080:8080"
     volumes:
-      - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./conf/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./conf/spark/master/log4j2.properties:/opt/bitnami/spark/conf/log4j2.properties
       - ./app/:/opt/app/  # Lưu lại các tệp ứng dụng trong container
       - ./jars/hadoop-aws-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-aws-3.3.1.jar
       - ./jars/aws-java-sdk-bundle-1.11.1026.jar:/opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.1026.jar
@@ -70,6 +84,7 @@ services:
       - ./jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar:/opt/bitnami/spark/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
       - ./notebooks:/home/jovyan/work
       - ./data:/home/jovyan/work/data
+      - ./logs/spark/master:/opt/bitnami/spark/logs
 
   spark-worker:
     image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
@@ -77,14 +92,16 @@ services:
     depends_on:
       - spark-master
     environment:
-      SPARK_MODE: worker
-      SPARK_MASTER_URL: spark://spark-master:7077
-      SPARK_WORKER_WEBUI_PORT: 8081
-      SPARK_LOG_LEVEL: WARN
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_WEBUI_PORT=8081
+      - SPARK_LOG_LEVEL=WARN
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
     ports:
       - "8081:8081"
     volumes:
-      - ./conf/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./conf/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./conf/spark/worker/log4j2.properties:/opt/bitnami/spark/conf/log4j2.properties
       - ./app/:/opt/app/  # Giữ lại các tệp ứng dụng trong container
       - ./jars/hadoop-aws-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-aws-3.3.1.jar
       - ./jars/aws-java-sdk-bundle-1.11.1026.jar:/opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.1026.jar
@@ -92,24 +109,45 @@ services:
       - ./jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar:/opt/bitnami/spark/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
       - ./notebooks:/home/jovyan/work
       - ./data:/home/jovyan/work/data
+      - ./logs/spark/worker:/opt/bitnami/spark/logs
 
   spark-thrift-server:
     image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
     container_name: spark-thrift-server
     environment:
       - SPARK_CONF_DIR=/opt/bitnami/spark/conf
+      - SPARK_MASTER_URL=spark://spark-master:7077
     command: >
       /bin/bash -c "
-      /opt/bitnami/spark/sbin/start-thriftserver.sh --master spark://spark-master:7077 --conf hive.server2.thrift.port=10000
+      /opt/bitnami/spark/sbin/start-thriftserver.sh --master spark://spark-master:7077 
+      --conf hive.server2.thrift.port=10000 
+      --conf spark.sql.adaptive.enabled=true 
+      --conf spark.dynamicAllocation.enabled=true 
+      --conf spark.dynamicAllocation.minExecutors=0 
+      --conf spark.dynamicAllocation.maxExecutors=2 
+      --conf spark.dynamicAllocation.initialExecutors=1 
+      --conf spark.sql.adaptive.coalescePartitions.enabled=true 
+      --conf spark.executor.cores=2 
+      --conf spark.executor.memory=1g 
+      --conf spark.driver.memory=512m
       && sleep infinity"
     ports:
       - "10000:10000"
       - "4041:4040"
     volumes:
+      - ./conf/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./jars/hadoop-aws-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-aws-3.3.1.jar
+      - ./jars/aws-java-sdk-bundle-1.11.1026.jar:/opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.1026.jar
+      - ./jars/hadoop-client-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-client-3.3.1.jar
+      - ./jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar:/opt/bitnami/spark/jars/iceberg-spark-runtime-3.5_2.12-1.9.2.jar
+      - ./jars/postgresql-42.7.7.jar:/opt/bitnami/spark/jars/postgresql-42.7.7.jar
       - ./notebooks:/home/jovyan/work
       - ./data:/home/jovyan/work/data
+      - ./conf/spark/thrift/log4j2.properties:/opt/bitnami/spark/conf/log4j2.properties
+      - ./logs/spark/thrift:/opt/bitnami/spark/logs
     depends_on:
       - spark-master
+      - hive-metastore
 
   jupyter:
     build:
@@ -121,9 +159,10 @@ services:
     volumes:
       - ./notebooks:/opt/bitnami/spark/work
       - ./data:/opt/bitnami/spark/work/data
+      - ./logs/jupyter:/opt/bitnami/spark/logs
+      - ./conf/jupyter/log4j2.properties:/opt/bitnami/spark/conf/log4j2.properties
     depends_on:
       - spark-master
-      - spark-worker
       - hive-metastore
       - minio
     environment:
@@ -134,14 +173,169 @@ services:
     image: trinodb/trino:414
     container_name: trino
     ports:
-      - "8082:8080"
+      - "9999:8080"
     volumes:
       - ./conf/trino/catalog:/etc/trino/catalog
     depends_on:
       - hive-metastore
 
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  airflow-postgres:
+    image: postgres:15
+    container_name: airflow-postgres
+    ports:
+      - "5434:5432"
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    volumes:
+      - airflow_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+
+  airflow-init:
+    build:
+      context: ./containers/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-init
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=z_lL_eTlP5BTuFAYKS8t4sqVfh97hySVN3PW4NCcwy4=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+      - AIRFLOW_CONN_DBT_SPARK=spark://spark-thrift-server:10000/default
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs/airflow:/opt/airflow/logs
+      - ./conf/airflow/plugins:/opt/airflow/plugins
+      - ./jars:/opt/airflow/dags/dbt_main_project/jars
+    command: >
+      bash -c "airflow db migrate && airflow connections delete 'dbt_spark' || true && airflow connections add 'dbt_spark' --conn-type 'spark' --conn-host 'spark-thrift-server' --conn-port '10000' --conn-schema 'default' --conn-extra '{\"hive.metastore.uris\": \"thrift://hive-metastore:9083\", \"queue\": \"default\"}'"
+  
+  airflow-webserver:
+    build:
+      context: ./containers/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-webserver
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      airflow-postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=z_lL_eTlP5BTuFAYKS8t4sqVfh97hySVN3PW4NCcwy4=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+      - AIRFLOW_CONN_DBT_SPARK=spark://spark-thrift-server:10000/default
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs/airflow:/opt/airflow/logs
+      - ./conf/airflow/plugins:/opt/airflow/plugins
+      - ./jars:/opt/airflow/dags/dbt_main_project/jars
+    ports:
+      - "8900:8080"
+    command: webserver
+    healthcheck:
+      test: ["CMD-SHELL", "[ -f /opt/airflow/airflow-webserver.pid ]"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  airflow-scheduler:
+    build:
+      context: ./containers/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-scheduler
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      airflow-postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=z_lL_eTlP5BTuFAYKS8t4sqVfh97hySVN3PW4NCcwy4=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+      - AIRFLOW_CONN_DBT_SPARK=spark://spark-thrift-server:10000/default
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs/airflow:/opt/airflow/logs
+      - ./conf/airflow/plugins:/opt/airflow/plugins
+      - ./jars:/opt/airflow/dags/dbt_main_project/jars
+    command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --local"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  airflow-worker:
+    build:
+      context: ./containers/airflow
+      dockerfile: Dockerfile
+    container_name: airflow-worker
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      airflow-postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://airflow:airflow@airflow-postgres:5432/airflow
+      - AIRFLOW__CORE__FERNET_KEY=z_lL_eTlP5BTuFAYKS8t4sqVfh97hySVN3PW4NCcwy4=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+      - AIRFLOW_CONN_DBT_SPARK=spark://spark-thrift-server:10000/default
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs/airflow:/opt/airflow/logs
+      - ./conf/airflow/plugins:/opt/airflow/plugins
+      - ./jars:/opt/airflow/dags/dbt_main_project/jars
+    command: celery worker
+    healthcheck:
+      test: ["CMD-SHELL", "celery --app airflow.executors.celery_executor.app inspect ping -d celery@$HOSTNAME"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
 
 volumes:
   hive_postgres_data:
   minio_data:
   iceberg_data:
+  airflow_postgres_data:
