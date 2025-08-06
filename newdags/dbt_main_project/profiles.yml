@@ -1,0 +1,15 @@
+dbt_main_project:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: thrift
+      host: localhost
+      port: 10000
+      schema: default
+      catalog: hive
+      hive_metastore_uris: thrift://hive-metastore:9083
+      s3_access_key_id: minioadmin
+      s3_secret_access_key: minioadmin
+      s3_endpoint: http://minio:9000
+      s3_path_style_access: true
