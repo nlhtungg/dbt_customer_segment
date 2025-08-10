@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_t24_branch
+    description: "Staging model for T24 branch data with standardized naming and hash"
+    columns:
+      - name: branch_id
+        description: "Standardized branch identifier"
+        tests:
+          - unique
+          - not_null
+      - name: branch_name
+        description: "Branch name"
+      - name: description
+        description: "Branch description and address"
+      - name: parent_branch
+        description: "Parent branch code"
+      - name: level_code
+        description: "Branch hierarchy level"
+      - name: record_hash
+        description: "MD5 hash for change detection"

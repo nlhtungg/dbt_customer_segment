@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: dim_branch
+    description: "Dimension table for bank branches transformed from t24_branch seed data"
+    columns:
+      - name: dim_branch_id
+        description: "Surrogate key - STT tự tăng"
+        tests:
+          - unique
+          - not_null
+      
+      - name: branch_id
+        description: "Mã chi nhánh. Bắt đầu bằng tiền tố 'VN' sau đó là 8 ký tự số"
+        tests:
+          - not_null
+      
+      - name: branch_name
+        description: "Tên chi nhánh tương ứng với mỗi mã chi nhánh"
+        tests:
+          - not_null
+      
+      - name: description
+        description: "Mô tả chi tiết về địa chỉ của chi nhánh"
+      
+      - name: parent_branch
+        description: "Mã chi nhánh cha. Chi nhánh quản lý và điều hành cụm chi nhánh theo vùng miền"
+      
+      - name: level_code
+        description: "Cấp bậc chi nhánh. 1 là cấp chi nhánh, 2 là cấp phòng giao dịch"
+        tests:
+          - accepted_values:
+              values: [1, 2]
+      
+      - name: dtf_start_date
+        description: "Ngày bắt đầu hiệu lực - Technical field"
+        tests:
+          - not_null
+      
+      - name: dtf_end_date
+        description: "Ngày kết thúc hiệu lực - Technical field"
+      
+      - name: dtf_current_flag
+        description: "Gồm 2 giá trị Y/N - Y: Bản ghi mới, N: bản ghi lịch sử"
+        tests:
+          - accepted_values:
+              values: ['Y', 'N']
