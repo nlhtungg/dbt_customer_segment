@@ -19,3 +19,20 @@ models:
         description: "Branch hierarchy level"
       - name: record_hash
         description: "MD5 hash for change detection"
+
+  - name: stg_t24_industry
+    description: "Staging model for T24 industry data with standardized naming and hash"
+    columns:
+      - name: industry_id
+        description: "Standardized industry identifier"
+        tests:
+          - unique
+          - not_null
+      - name: industry_name
+        description: "Industry name"
+      - name: description
+        description: "Industry description"
+      - name: created_at
+        description: "Industry creation timestamp"
+      - name: record_hash
+        description: "MD5 hash for change detection"
