@@ -2,3 +2,6 @@
 *_checkpoints
 metastore_db/
 spark-warehouse/
+logs/
+*.pyc
+__pycache__/

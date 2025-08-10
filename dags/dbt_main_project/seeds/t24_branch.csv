@@ -1,0 +1,22 @@
+Branch_Code,Branch_Name,Description,Parent_Branch,Level_Code
+VN00000002,PHÒNG GIAO DỊCH CẦU GIẤY,"Nằm tại số 1 Cầu Giấy, Hà Nội",VN000123,2
+VN00000021,CHI NHÁNH HÀ NỘI,"Nằm tại số 1 Hùng Vương, Ba Đình, Hà Nội",VN000000,3
+VN00000003,CHI NHÁNH ĐỐNG ĐA,"Nằm tại số 15 Đống Đa, Đống Đa, Hà Nội",VN000123,1
+VN00000004,PHÒNG GIAO DỊCH BÌNH THẠNH,"Nằm tại số 5 Bình Thạnh, Hồ Chí Minh",VN000456,2
+VN00000005,CHI NHÁNH PHÚ NHUẬN,"Nằm tại số 100 Phú Nhuận, Hồ Chí Minh",VN000456,1
+VN00000006,CHI NHÁNH TÂY HỒ,"Nằm tại số 90 Tây Hồ, Hà Nội",VN000123,1
+VN00000007,PHÒNG GIAO DỊCH TÂN BÌNH,"Nằm tại số 2 Tân Bình, Hồ Chí Minh",VN000456,2
+VN00000008,CHI NHÁNH HẢI CHÂU,"Nằm tại số 50 Hải Châu, Đà Nẵng",VN000789,1
+VN00000009,PHÒNG GIAO DỊCH NGHỆ AN,"Nằm tại số 30 Nghệ An",VN005678,2
+VN00000010,CHI NHÁNH BẮC NINH,"Nằm tại số 25 Bắc Ninh",VN001234,1
+VN00000011,CHI NHÁNH THỦ ĐỨC,"Nằm tại số 15 Thủ Đức, Hồ Chí Minh",VN000456,1
+VN00000012,PHÒNG GIAO DỊCH GÒ VẤP,"Nằm tại số 40 Gò Vấp, Hồ Chí Minh",VN000456,2
+VN00000013,CHI NHÁNH LONG BIÊN,"Nằm tại số 60 Long Biên, Hà Nội",VN000123,1
+VN00000014,PHÒNG GIAO DỊCH QUẬN 1,"Nằm tại số 70 Quận 1, Hồ Chí Minh",VN000456,2
+VN00000015,CHI NHÁNH MỸ ĐỨC,"Nằm tại số 80 Mỹ Đức, Hà Nội",VN000123,1
+VN00000016,PHÒNG GIAO DỊCH HÀ ĐÔNG,"Nằm tại số 90 Hà Đông, Hà Nội",VN000123,2
+VN00000017,CHI NHÁNH AN ĐÔNG,"Nằm tại số 100 An Đông, Hồ Chí Minh",VN000456,1
+VN00000018,PHÒNG GIAO DỊCH TÂN PHÚ,"Nằm tại số 110 Tân Phú, Hồ Chí Minh",VN000456,2
+VN00000019,CHI NHÁNH QUẬN 3,"Nằm tại số 120 Quận 3, Hồ Chí Minh",VN000456,1
+VN00000020,PHÒNG GIAO DỊCH THANH HÓA MỚI,"Nằm tại số 130 Thanh Hóa",VN005678,2
+VN00000022,CHI NHÁNH SÀI GÒN,"Nằm tại số 140 Sài Gòn",VN000456,1

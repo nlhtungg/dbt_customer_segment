@@ -51,3 +51,109 @@
 [2025-08-06T09:07:25.133+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_iceberg, task_id=dbt_processing.orders_by_date_run, execution_date=20250805T000000, start_date=20250806T090718, end_date=20250806T090725
 [2025-08-06T09:07:25.202+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
 [2025-08-06T09:07:25.224+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-06T13:20:43.204+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [queued]>
+[2025-08-06T13:20:43.213+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [queued]>
+[2025-08-06T13:20:43.214+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-08-06T13:20:43.227+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtRunLocalOperator): dbt_processing.orders_by_date_run> on 2025-08-05 00:00:00+00:00
+[2025-08-06T13:20:43.234+0000] {standard_task_runner.py:57} INFO - Started process 157 to run task
+[2025-08-06T13:20:43.237+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_iceberg', 'dbt_processing.orders_by_date_run', 'scheduled__2025-08-05T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dags_***/ex.py', '--cfg-path', '/tmp/tmpsyti0n4i']
+[2025-08-06T13:20:43.238+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask dbt_processing.orders_by_date_run
+[2025-08-06T13:20:43.316+0000] {task_command.py:416} INFO - Running <TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [running]> on host b8888357718d
+[2025-08-06T13:20:43.417+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_iceberg' AIRFLOW_CTX_TASK_ID='dbt_processing.orders_by_date_run' AIRFLOW_CTX_EXECUTION_DATE='2025-08-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-05T00:00:00+00:00'
+[2025-08-06T13:20:44.702+0000] {local.py:244} INFO - dbtRunner is available. Using dbtRunner for invoking dbt.
+[2025-08-06T13:20:44.704+0000] {local.py:464} INFO - Cloning project to writable temp directory /tmp/tmpmtgs8vre from /opt/airflow/dags/dbt_main_project
+[2025-08-06T13:20:44.707+0000] {local.py:484} INFO - Partial parse is enabled and the latest partial parse file is /tmp/cosmos/example_iceberg__dbt_processing/target/partial_parse.msgpack
+[2025-08-06T13:20:44.714+0000] {config.py:364} INFO - Profile caching is enable.
+[2025-08-06T13:20:44.715+0000] {base.py:73} INFO - Using connection ID 'dbt_spark' for task execution.
+[2025-08-06T13:20:44.715+0000] {config.py:344} INFO - Profile found in cache using profile: /tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27/profiles.yml.
+[2025-08-06T13:20:44.716+0000] {runner.py:60} INFO - Trying to run dbtRunner with:
+ ['run', '--vars', "processing_date: '1970-01-01'\n", '--models', 'orders_by_date', '--project-dir', '/tmp/tmpmtgs8vre', '--profiles-dir', '/tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27', '--profile', 'dbt_main_project', '--target', 'dev', '--no-static-parser']
+ in /tmp/tmpmtgs8vre
+[2025-08-06T13:20:44.778+0000] {logging_mixin.py:154} INFO - 13:20:44  Running with dbt=1.9.0-b2
+[2025-08-06T13:20:45.075+0000] {logging_mixin.py:154} INFO - 13:20:45  Registered adapter: spark=1.8.0
+[2025-08-06T13:20:45.575+0000] {logging_mixin.py:154} INFO - 13:20:45  Found 1 model, 1 seed, 463 macros
+[2025-08-06T13:20:45.578+0000] {logging_mixin.py:154} INFO - 13:20:45
+[2025-08-06T13:20:45.578+0000] {logging_mixin.py:154} INFO - 13:20:45  Concurrency: 1 threads (target='dev')
+[2025-08-06T13:20:45.579+0000] {logging_mixin.py:154} INFO - 13:20:45
+[2025-08-06T13:20:46.069+0000] {logging_mixin.py:154} INFO - 13:20:46  1 of 1 START sql table model default.orders_by_date ............................ [RUN]
+[2025-08-06T13:20:48.764+0000] {logging_mixin.py:154} INFO - 13:20:48  1 of 1 OK created sql table model default.orders_by_date ....................... [OK in 2.69s]
+[2025-08-06T13:20:48.807+0000] {logging_mixin.py:154} INFO - 13:20:48
+[2025-08-06T13:20:48.808+0000] {logging_mixin.py:154} INFO - 13:20:48  Finished running 1 table model in 0 hours 0 minutes and 3.23 seconds (3.23s).
+[2025-08-06T13:20:48.845+0000] {logging_mixin.py:154} INFO - 13:20:48
+[2025-08-06T13:20:48.846+0000] {logging_mixin.py:154} INFO - 13:20:48  Completed successfully
+[2025-08-06T13:20:48.847+0000] {logging_mixin.py:154} INFO - 13:20:48
+[2025-08-06T13:20:48.848+0000] {logging_mixin.py:154} INFO - 13:20:48  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-08-06T13:20:50.042+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/manifest/v12.json is above dbt-ol supported version 7. This might cause errors.
+[2025-08-06T13:20:50.042+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/run-results/v6.json is above dbt-ol supported version 5. This might cause errors.
+[2025-08-06T13:20:50.048+0000] {local.py:693} WARNING - 
+                    Airflow 3.0.0 Asset (Dataset) URIs validation rules changed and OpenLineage URIs (standard used by Cosmos) will no longer be valid.
+                    Therefore, if using Cosmos with Airflow 3, the Airflow Dataset URIs will be changed to <spark://spark-thrift-server:10000/None/default/orders_by_date>.
+                    Previously, with Airflow 2.x, the URI was <spark://spark-thrift-server:10000/None.default.orders_by_date>.
+                    If you want to use the Airflow 3 URI standard while still using Airflow 2, please, set:
+                        export AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+                    Remember to update any DAGs that are scheduled using this dataset.
+                    
+[2025-08-06T13:20:50.049+0000] {local.py:538} INFO - Inlets: []
+[2025-08-06T13:20:50.049+0000] {local.py:539} INFO - Outlets: [Dataset(uri='spark://spark-thrift-server:10000/None.default.orders_by_date', extra=None)]
+[2025-08-06T13:20:50.049+0000] {local.py:761} INFO - Assigning inlets/outlets without DatasetAlias
+[2025-08-06T13:20:50.050+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-08-06T13:20:50.081+0000] {dag.py:3722} INFO - Setting next_dagrun for example_iceberg to 2025-08-06T00:00:00+00:00, run_after=2025-08-07T00:00:00+00:00
+[2025-08-06T13:20:50.113+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1471: RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+  context["ti"].xcom_push(key=key, value=value, execution_date=execution_date)
+
+[2025-08-06T13:20:50.140+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_iceberg, task_id=dbt_processing.orders_by_date_run, execution_date=20250805T000000, start_date=20250806T132043, end_date=20250806T132050
+[2025-08-06T13:20:50.195+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-08-06T13:20:50.219+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-06T13:54:40.494+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [queued]>
+[2025-08-06T13:54:40.503+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [queued]>
+[2025-08-06T13:54:40.503+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-08-06T13:54:40.513+0000] {taskinstance.py:1382} INFO - Executing <Task(DbtRunLocalOperator): dbt_processing.orders_by_date_run> on 2025-08-05 00:00:00+00:00
+[2025-08-06T13:54:40.519+0000] {standard_task_runner.py:57} INFO - Started process 195 to run task
+[2025-08-06T13:54:40.522+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'example_iceberg', 'dbt_processing.orders_by_date_run', 'scheduled__2025-08-05T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/dags_***/ex.py', '--cfg-path', '/tmp/tmppol8agt2']
+[2025-08-06T13:54:40.523+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask dbt_processing.orders_by_date_run
+[2025-08-06T13:54:40.592+0000] {task_command.py:416} INFO - Running <TaskInstance: example_iceberg.dbt_processing.orders_by_date_run scheduled__2025-08-05T00:00:00+00:00 [running]> on host a5341ec5a4ff
+[2025-08-06T13:54:40.683+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_iceberg' AIRFLOW_CTX_TASK_ID='dbt_processing.orders_by_date_run' AIRFLOW_CTX_EXECUTION_DATE='2025-08-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-05T00:00:00+00:00'
+[2025-08-06T13:54:41.753+0000] {local.py:244} INFO - dbtRunner is available. Using dbtRunner for invoking dbt.
+[2025-08-06T13:54:41.754+0000] {local.py:464} INFO - Cloning project to writable temp directory /tmp/tmpy51xtqbt from /opt/airflow/dags/dbt_main_project
+[2025-08-06T13:54:41.757+0000] {local.py:484} INFO - Partial parse is enabled and the latest partial parse file is /tmp/cosmos/example_iceberg__dbt_processing/target/partial_parse.msgpack
+[2025-08-06T13:54:41.765+0000] {config.py:364} INFO - Profile caching is enable.
+[2025-08-06T13:54:41.766+0000] {base.py:73} INFO - Using connection ID 'dbt_spark' for task execution.
+[2025-08-06T13:54:41.766+0000] {config.py:344} INFO - Profile found in cache using profile: /tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27/profiles.yml.
+[2025-08-06T13:54:41.767+0000] {runner.py:60} INFO - Trying to run dbtRunner with:
+ ['run', '--vars', "processing_date: '1970-01-01'\n", '--models', 'orders_by_date', '--project-dir', '/tmp/tmpy51xtqbt', '--profiles-dir', '/tmp/cosmos/profile/818394f1fa07916eb06bcd5299ec520a7f75aff7aab6c09e4f1c608b1ae98e27', '--profile', 'dbt_main_project', '--target', 'dev', '--no-static-parser']
+ in /tmp/tmpy51xtqbt
+[2025-08-06T13:54:41.827+0000] {logging_mixin.py:154} INFO - 13:54:41  Running with dbt=1.9.0-b2
+[2025-08-06T13:54:42.091+0000] {logging_mixin.py:154} INFO - 13:54:42  Registered adapter: spark=1.8.0
+[2025-08-06T13:54:42.484+0000] {logging_mixin.py:154} INFO - 13:54:42  Found 1 model, 1 seed, 463 macros
+[2025-08-06T13:54:42.487+0000] {logging_mixin.py:154} INFO - 13:54:42
+[2025-08-06T13:54:42.488+0000] {logging_mixin.py:154} INFO - 13:54:42  Concurrency: 1 threads (target='dev')
+[2025-08-06T13:54:42.489+0000] {logging_mixin.py:154} INFO - 13:54:42
+[2025-08-06T13:54:43.071+0000] {logging_mixin.py:154} INFO - 13:54:43  1 of 1 START sql table model default.orders_by_date ............................ [RUN]
+[2025-08-06T13:54:45.930+0000] {logging_mixin.py:154} INFO - 13:54:45  1 of 1 OK created sql table model default.orders_by_date ....................... [OK in 2.85s]
+[2025-08-06T13:54:45.977+0000] {logging_mixin.py:154} INFO - 13:54:45
+[2025-08-06T13:54:45.978+0000] {logging_mixin.py:154} INFO - 13:54:45  Finished running 1 table model in 0 hours 0 minutes and 3.49 seconds (3.49s).
+[2025-08-06T13:54:46.016+0000] {logging_mixin.py:154} INFO - 13:54:46
+[2025-08-06T13:54:46.017+0000] {logging_mixin.py:154} INFO - 13:54:46  Completed successfully
+[2025-08-06T13:54:46.018+0000] {logging_mixin.py:154} INFO - 13:54:46
+[2025-08-06T13:54:46.019+0000] {logging_mixin.py:154} INFO - 13:54:46  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-08-06T13:54:47.232+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/manifest/v12.json is above dbt-ol supported version 7. This might cause errors.
+[2025-08-06T13:54:47.232+0000] {local.py:110} WARNING - Artifact schema version: https://schemas.getdbt.com/dbt/run-results/v6.json is above dbt-ol supported version 5. This might cause errors.
+[2025-08-06T13:54:47.237+0000] {local.py:693} WARNING - 
+                    Airflow 3.0.0 Asset (Dataset) URIs validation rules changed and OpenLineage URIs (standard used by Cosmos) will no longer be valid.
+                    Therefore, if using Cosmos with Airflow 3, the Airflow Dataset URIs will be changed to <spark://spark-thrift-server:10000/None/default/orders_by_date>.
+                    Previously, with Airflow 2.x, the URI was <spark://spark-thrift-server:10000/None.default.orders_by_date>.
+                    If you want to use the Airflow 3 URI standard while still using Airflow 2, please, set:
+                        export AIRFLOW__COSMOS__USE_DATASET_AIRFLOW3_URI_STANDARD=1
+                    Remember to update any DAGs that are scheduled using this dataset.
+                    
+[2025-08-06T13:54:47.238+0000] {local.py:538} INFO - Inlets: []
+[2025-08-06T13:54:47.238+0000] {local.py:539} INFO - Outlets: [Dataset(uri='spark://spark-thrift-server:10000/None.default.orders_by_date', extra=None)]
+[2025-08-06T13:54:47.238+0000] {local.py:761} INFO - Assigning inlets/outlets without DatasetAlias
+[2025-08-06T13:54:47.238+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-08-06T13:54:47.264+0000] {dag.py:3722} INFO - Setting next_dagrun for example_iceberg to 2025-08-06T00:00:00+00:00, run_after=2025-08-07T00:00:00+00:00
+[2025-08-06T13:54:47.295+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/models/baseoperator.py:1471: RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+  context["ti"].xcom_push(key=key, value=value, execution_date=execution_date)
+
+[2025-08-06T13:54:47.321+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=example_iceberg, task_id=dbt_processing.orders_by_date_run, execution_date=20250805T000000, start_date=20250806T135440, end_date=20250806T135447
+[2025-08-06T13:54:47.357+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-08-06T13:54:47.379+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

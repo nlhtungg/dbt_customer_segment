@@ -2,8 +2,8 @@ from __future__ import annotations
 import pendulum
 from airflow.models.dag import DAG
 from airflow.models.variable import Variable
-from airflow.operators.dummy import DummyOperator
-from airflow.operators.python import PythonOperator
+from airflow.operators.dummy import DummyOperator # type: ignore
+from airflow.operators.python import PythonOperator # type: ignore
 from cosmos import DbtTaskGroup, ProjectConfig, ProfileConfig
 from cosmos.profiles import SparkThriftProfileMapping
 
