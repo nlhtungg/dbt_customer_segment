@@ -1,4 +1,5 @@
-{% macro scd_type_2(source_table, unique_key, compare_columns, exclude_columns=[]) %}
+      
+{% macro scd_type_2(source_table, unique_key, compare_columns, surrogate_key_column, exclude_columns=[]) %}
 
 {% if is_incremental() %}
 ,
@@ -57,7 +58,7 @@ deleted_keys AS (
 -- Mark existing current records as expired
 expired_current_records AS (
     SELECT 
-        dim_branch_id,
+        {{ surrogate_key_column }},
         {{ unique_key }},
         {% for col in compare_columns %}
         {{ col }},
@@ -77,7 +78,7 @@ expired_current_records AS (
 new_current_records AS (
     SELECT 
         ROW_NUMBER() OVER (ORDER BY {{ unique_key }}) + 
-        COALESCE((SELECT MAX(dim_branch_id) FROM existing_data), 0) AS dim_branch_id,
+        COALESCE((SELECT MAX({{ surrogate_key_column }}) FROM existing_data), 0) AS {{ surrogate_key_column }},
         {{ unique_key }},
         {% for col in compare_columns %}
         {{ col }},
@@ -95,7 +96,7 @@ new_current_records AS (
 -- Keep unchanged current records
 unchanged_current_records AS (
     SELECT 
-        dim_branch_id,
+        {{ surrogate_key_column }},
         {{ unique_key }},
         {% for col in compare_columns %}
         {{ col }},
@@ -114,7 +115,7 @@ unchanged_current_records AS (
 -- Keep all historical records
 historical_records AS (
     SELECT 
-        dim_branch_id,
+        {{ surrogate_key_column }},
         {{ unique_key }},
         {% for col in compare_columns %}
         {{ col }},
@@ -142,7 +143,7 @@ SELECT * FROM scd_result
 {% else %}
 -- Initial load
 SELECT
-    ROW_NUMBER() OVER (ORDER BY {{ unique_key }}) AS dim_branch_id,
+    ROW_NUMBER() OVER (ORDER BY {{ unique_key }}) AS {{ surrogate_key_column }},
     {{ unique_key }},
     {% for col in compare_columns %}
     {{ col }},

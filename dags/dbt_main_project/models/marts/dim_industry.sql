@@ -15,5 +15,6 @@ WITH staged_industry_data AS (
 {{ scd_type_2(
     source_table='staged_industry_data',
     unique_key='industry_id',
-    compare_columns=['industry_name', 'description', 'created_at']
+    compare_columns=['industry_name', 'description', 'created_at'],
+    surrogate_key_column = 'dim_industry_id'
 ) }}
