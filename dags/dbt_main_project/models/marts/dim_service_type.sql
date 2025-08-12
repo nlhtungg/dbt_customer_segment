@@ -2,7 +2,7 @@
     config(
         materialized = 'incremental',
         file_format='iceberg',
-        location_root='s3a://iceberg-warehouse/dimensions',
+        location_root='s3a://iceberg-warehouse/output/dimensions',
         table_properties={'write.format.default': 'parquet'},
         incremental_strategy='merge',
         unique_key='dim_service_type_id',
