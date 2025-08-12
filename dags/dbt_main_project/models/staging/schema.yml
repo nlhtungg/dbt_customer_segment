@@ -1,7 +1,5 @@
-version: 2
-
 models:
-  - name: stg_t24_branch
+  - name: stg_branch
     description: "Staging model for T24 branch data with standardized naming and hash"
     columns:
       - name: branch_id
@@ -20,7 +18,7 @@ models:
       - name: record_hash
         description: "MD5 hash for change detection"
 
-  - name: stg_t24_industry
+  - name: stg_industry
     description: "Staging model for T24 industry data with standardized naming and hash"
     columns:
       - name: industry_id
@@ -36,3 +34,13 @@ models:
         description: "Industry creation timestamp"
       - name: record_hash
         description: "MD5 hash for change detection"
+
+  - name: stg_customer_segment
+    columns:
+      - name: segment_code
+        tests:
+          - unique
+          - not_null
+      - name: segment_name
+        tests:
+          - not_null

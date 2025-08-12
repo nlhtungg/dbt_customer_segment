@@ -9,7 +9,7 @@
 ) }}
 
 WITH staged_branch_data AS (
-    SELECT * FROM {{ ref('stg_t24_branch') }}
+    SELECT * FROM {{ ref('stg_branch') }}
 )
 
 {{ scd_type_2(

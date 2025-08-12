@@ -1,0 +1,21 @@
+Currency_Code,Currency_Name,Exchange_Rate,Last_Updated
+USD,Đô la Mỹ,25.5,8/12/2025
+EUR,Euro,27.5,1/25/2025
+VND,Việt Nam đồng,1,1/25/2025
+JPY,Yên Nhật,0.15,1/25/2025
+GBP,Bảng Anh,29,1/25/2025
+AUD,Đô la Úc,17,1/25/2025
+CAD,Đô la Canada,18.5,1/25/2025
+CHF,Franc Thụy Sĩ,26,1/25/2025
+CNY,Nhân dân tệ Trung Quốc,3.5,1/25/2025
+HKD,Đô la Hồng Kông,3,1/25/2025
+KRW,Won Hàn Quốc,0.02,1/25/2025
+SGD,Đô la Singapore,17,1/25/2025
+THB,Baht Thái Lan,0.7,1/25/2025
+MYR,Ringgit Malaysia,5.5,1/25/2025
+PHP,Peso Philippines,0.45,1/25/2025
+IDR,Rupiah Indonesia,0.0016,1/25/2025
+INR,Rupee Ấn Độ,0.3,1/25/2025
+RUB,Rúp Nga,0.3,1/25/2025
+BRL,Real Brazil,4.5,1/25/2025
+ZAR,Rand Nam Phi,1.5,1/25/2025

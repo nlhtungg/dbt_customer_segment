@@ -1,5 +1,5 @@
 {{ config(
-    materialization = 'table',
+    materialized = 'table',
     file_format='iceberg',
     location_root='s3a://iceberg-warehouse/staging'
 )}}

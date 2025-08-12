@@ -1,4 +1,3 @@
-      
 {{ config(
     materialized='table',
     file_format='iceberg',
@@ -13,5 +12,3 @@ SELECT
         COALESCE(segment_name, '')
     )) AS record_hash
 FROM {{ ref('t24_customer_segment') }}
-
-    

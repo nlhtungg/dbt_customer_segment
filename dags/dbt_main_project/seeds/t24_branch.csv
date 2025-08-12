@@ -1,6 +1,6 @@
 Branch_Code,Branch_Name,Description,Parent_Branch,Level_Code
-VN00000002,PHÒNG GIAO DỊCH CẦU GIẤY,"Nằm tại số 1 Cầu Giấy, Hà Nội",VN000123,2
-VN00000021,CHI NHÁNH HÀ NỘI,"Nằm tại số 1 Hùng Vương, Ba Đình, Hà Nội",VN000000,3
+VN00000002,PHÒNG GIAO DỊCH CẦU GIẤY,"Nằm tại số 10 Cầu Giấy, Hà Nội",VN000123,2
+VN00000001,CHI NHÁNH HAI BÀ TRƯNG,"Nằm tại số 2 Lê Đại Hành, Hai Bà Trưng, Hà Nội",VN000123,1
 VN00000003,CHI NHÁNH ĐỐNG ĐA,"Nằm tại số 15 Đống Đa, Đống Đa, Hà Nội",VN000123,1
 VN00000004,PHÒNG GIAO DỊCH BÌNH THẠNH,"Nằm tại số 5 Bình Thạnh, Hồ Chí Minh",VN000456,2
 VN00000005,CHI NHÁNH PHÚ NHUẬN,"Nằm tại số 100 Phú Nhuận, Hồ Chí Minh",VN000456,1
@@ -18,5 +18,4 @@ VN00000016,PHÒNG GIAO DỊCH HÀ ĐÔNG,"Nằm tại số 90 Hà Đông, Hà N�
 VN00000017,CHI NHÁNH AN ĐÔNG,"Nằm tại số 100 An Đông, Hồ Chí Minh",VN000456,1
 VN00000018,PHÒNG GIAO DỊCH TÂN PHÚ,"Nằm tại số 110 Tân Phú, Hồ Chí Minh",VN000456,2
 VN00000019,CHI NHÁNH QUẬN 3,"Nằm tại số 120 Quận 3, Hồ Chí Minh",VN000456,1
-VN00000022,CHI NHÁNH SÀI GÒN,"Nằm tại số 140 Sài Gò",VN000456,1
-VN00000020,PHÒNG GIAO DỊCH VĂN QUÁN,"Nằm tại số 150 Văn Quán, Hà Nội",VN000123,2
+VN00000020,PHÒNG GIAO DỊCH BÌNH TÂN,"Nằm tại số 130 Bình Tân, Hồ Chí Minh",VN000456,2

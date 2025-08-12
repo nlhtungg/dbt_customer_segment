@@ -86,9 +86,9 @@ services:
       - ./data:/home/jovyan/work/data
       - ./logs/spark/master:/opt/bitnami/spark/logs
 
-  spark-worker:
+  spark-worker-1:
     image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
-    container_name: spark-worker
+    container_name: spark-worker-1
     depends_on:
       - spark-master
     environment:
@@ -97,6 +97,8 @@ services:
       - SPARK_WORKER_WEBUI_PORT=8081
       - SPARK_LOG_LEVEL=WARN
       - SPARK_CONF_DIR=/opt/bitnami/spark/conf
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=2g
     ports:
       - "8081:8081"
     volumes:
@@ -111,6 +113,33 @@ services:
       - ./data:/home/jovyan/work/data
       - ./logs/spark/worker:/opt/bitnami/spark/logs
 
+  spark-worker-2:
+    image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
+    container_name: spark-worker-2
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_WEBUI_PORT=8081
+      - SPARK_LOG_LEVEL=WARN
+      - SPARK_CONF_DIR=/opt/bitnami/spark/conf
+      - SPARK_WORKER_CORES=2
+      - SPARK_WORKER_MEMORY=2g
+    ports:
+      - "8082:8082"
+    volumes:
+      - ./conf/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf   # Cấu hình Spark
+      - ./conf/spark/worker/log4j2.properties:/opt/bitnami/spark/conf/log4j2.properties
+      - ./app/:/opt/app/  # Giữ lại các tệp ứng dụng trong container
+      - ./jars/hadoop-aws-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-aws-3.3.1.jar
+      - ./jars/aws-java-sdk-bundle-1.11.1026.jar:/opt/bitnami/spark/jars/aws-java-sdk-bundle-1.11.1026.jar
+      - ./jars/hadoop-client-3.3.1.jar:/opt/bitnami/spark/jars/hadoop-client-3.3.1.jar
+      - ./jars/iceberg-spark-runtime-3.4_2.12-1.5.2.jar:/opt/bitnami/spark/jars/iceberg-spark-runtime-3.4_2.12-1.5.2.jar
+      - ./notebooks:/home/jovyan/work
+      - ./data:/home/jovyan/work/data
+      - ./logs/spark/worker:/opt/bitnami/spark/logs
+  
   spark-thrift-server:
     image: bitnami/spark:3.4.1   # Đổi từ build thành image đã có sẵn
     container_name: spark-thrift-server
@@ -120,16 +149,14 @@ services:
     command: >
       /bin/bash -c "
       /opt/bitnami/spark/sbin/start-thriftserver.sh --master spark://spark-master:7077 
-      --conf hive.server2.thrift.port=10000 
+      --conf hive.server2.thrift.port=10000
       --conf spark.sql.adaptive.enabled=true 
-      --conf spark.dynamicAllocation.enabled=true 
-      --conf spark.dynamicAllocation.minExecutors=0 
-      --conf spark.dynamicAllocation.maxExecutors=2 
-      --conf spark.dynamicAllocation.initialExecutors=1 
-      --conf spark.sql.adaptive.coalescePartitions.enabled=true 
+      --conf spark.dynamicAllocation.enabled=false 
+      --conf spark.executor.instances=1 
       --conf spark.executor.cores=2 
       --conf spark.executor.memory=1g 
-      --conf spark.driver.memory=512m
+      --conf spark.driver.memory=512m 
+      --conf spark.cores.max=2 
       && sleep infinity"
     ports:
       - "10000:10000"

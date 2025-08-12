@@ -1,4 +1,3 @@
-      
 {{ config(
     materialized='incremental',
     file_format='iceberg',
@@ -10,7 +9,7 @@
 ) }}
 
 WITH staged_cusseg_data AS (
-    SELECT * FROM {{ ref('stg_t24_customer_segment') }}
+    SELECT * FROM {{ ref('stg_customer_segment') }}
 )
 
 {{ scd_type_2(

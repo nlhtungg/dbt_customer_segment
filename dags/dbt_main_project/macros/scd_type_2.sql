@@ -1,4 +1,3 @@
-      
 {% macro scd_type_2(source_table, unique_key, compare_columns, surrogate_key_column, exclude_columns=[]) %}
 
 {% if is_incremental() %}

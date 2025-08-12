@@ -1,4 +1,4 @@
-dbt_main_project:
+dbt_local_test:
   target: dev
   outputs:
     dev:

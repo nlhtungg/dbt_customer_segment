@@ -10,7 +10,7 @@
     )
 }}
 
-WITH staged_service_name_data AS (
+WITH staged_service_name_data AS(
     SELECT * FROM {{ ref('stg_service_name') }}
 )
 

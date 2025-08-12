@@ -10,9 +10,15 @@
     )
 }}
 
+WITH staged_customer_data AS (
+    SELECT * FROM {{ ref('stg_customer') }}
+)
+
 {{ scd_type_2(
-    source_table=ref('stg_customer'),
+    source_table='staged_customer_data',
     unique_key='customer_id',
-    compare_columns=['name', 'segment_code', 'address', 'dim_branch_id', 'dim_industry_id'],
+    compare_columns=['name', 'date_of_birth', 'segment_code', 'dim_cusseg_id',
+                    'address', 'industry_code', 'dim_industry_id',
+                    'marital_status', 'income_level', 'branch_code', 'dim_branch_id'],
     surrogate_key_column = 'dim_customer_id'
 )}}

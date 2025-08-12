@@ -5,14 +5,16 @@
 ) }}
 
 SELECT
-    industry_id AS industry_id,
-    industry_name,
+    branch_code AS branch_id,
+    branch_name,
     description,
-    created_at,
+    parent_branch,
+    level_code,
     -- Create a hash for change detection
     MD5(CONCAT(
-        COALESCE(industry_name, ''),
+        COALESCE(branch_name, ''),
         COALESCE(description, ''),
-        COALESCE(created_at, '')
+        COALESCE(parent_branch, ''),
+        CAST(level_code AS STRING)
     )) AS record_hash
-FROM {{ ref('t24_industry') }}
+FROM {{ ref('t24_branch') }}

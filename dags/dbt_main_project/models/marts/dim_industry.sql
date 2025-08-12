@@ -9,7 +9,7 @@
 ) }}
 
 WITH staged_industry_data AS (
-    SELECT * FROM {{ ref('stg_t24_industry') }}
+    SELECT * FROM {{ ref('stg_industry') }}
 )
 
 {{ scd_type_2(
