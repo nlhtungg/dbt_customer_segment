@@ -13,6 +13,7 @@ SELECT
         COALESCE(col.owner_id, ''),
         COALESCE(col.collateral_type, ''),
         COALESCE(col.collateral_value, ''),
+        COALESCE(col.description, ''),
         COALESCE(dcu.dim_customer_id, '')
     )) AS record_hash
 FROM {{ ref('t24_collateral') }} col

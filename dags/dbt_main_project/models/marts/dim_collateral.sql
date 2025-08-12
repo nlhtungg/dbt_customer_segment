@@ -15,6 +15,6 @@ WITH staged_collateral_data AS (
 {{ scd_type_2(
     source_table='staged_collateral_data',
     unique_key='collateral_id',
-    compare_columns=['owner_id', 'collateral_type', 'collateral_value', 'dim_customer_id'],
+    compare_columns=['owner_id', 'collateral_type', 'collateral_value', 'description', 'dim_customer_id'],
     surrogate_key_column = 'dim_coll_id'
 ) }}
