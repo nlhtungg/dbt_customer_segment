@@ -17,6 +17,6 @@ WITH staged_account_payment_data AS(
 {{ scd_type_2(
     source_table='staged_account_payment_data',
     unique_key='account_payment_id',
-    compare_columns=['customer_id','account_name','account_status','branch_id','open_date'],
+    compare_columns=['customer_id','account_name','account_status','branch_id','open_date','updated_at'],
     surrogate_key_column = 'dim_account_payment_id'
 )}}

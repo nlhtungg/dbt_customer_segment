@@ -47,8 +47,3 @@ joined as (
 
 select *
 from joined
-
-{% if is_incremental() %}
--- Với MERGE, dbt sẽ tự sinh câu MERGE dựa trên unique_key ở trên.
--- Không cần where bổ sung. Nếu engine của bạn yêu cầu, có thể thêm filter nhẹ.
-{% endif %}

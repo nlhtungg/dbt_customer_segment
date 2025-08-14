@@ -11,12 +11,14 @@ SELECT
     accp.account_status,
     dbr.branch_id,
     accp.open_date,
+    accp.updated_at,
     MD5(CONCAT(
         COALESCE(dcus.customer_id,''),
         COALESCE(UPPER(dcus.name),''),
         COALESCE(accp.account_status,''),
         COALESCE(dbr.branch_id,''),
-        COALESCE(accp.open_date,'')
+        COALESCE(accp.open_date,''),
+        COALESCE(accp.updated_at,'')
     )) AS record_hash
 FROM {{ ref('t24_account_payment') }} accp
 LEFT JOIN {{ ref('dim_branch') }} dbr
