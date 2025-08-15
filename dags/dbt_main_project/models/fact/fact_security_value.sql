@@ -1,49 +1,18 @@
-{{ config(
-   materialized = 'incremental',
-   incremental_strategy = 'merge',
-   unique_key = ['security_id','purchase_date'],
-   file_format = 'iceberg',
-   partition_by = ['purchase_date'],
-   location_root = 's3a://iceberg-warehouse/output/facts'
-) }}
+{{
+    config(
+        materialized='incremental',
+        file_format='iceberg',
+        location_root='s3a://iceberg-warehouse/output/facts'
+    )
+}}
 
-with run_param as (
- select {{ get_run_date() }} as run_date
-),
-sec as (
- select *
- from {{ ref('stg_security_value') }}
-),
-dsec as (
- select
-     cast(dim_security_id as string)  as dim_security_id,
-     cast(security_id as string)   as security_id
- from {{ ref('dim_security') }}
-),
-filtered as (
- select
-     s.security_id,
-     s.purchase_price,
-     s.market_value,
-     s.purchase_date
- from sec s
- cross join run_param r
- where s.security_id is not null
-   and s.purchase_date = r.run_date
-),
-joined as (
- select
-     /* Foreign key tới DIM: dùng surrogate key */
-     d.dim_security_id as security_id,
-     /* dtf_day_id kiểu YYYYMMDD */
-     cast(date_format(f.purchase_date, 'yyyyMMdd') as int) as dtf_day_id,
-     f.purchase_price,
-     f.market_value,
-     f.purchase_date
- from filtered f
- inner join dsec d
-         on d.security_id = f.security_id
-)
-
-select *
-from joined
+SELECT
+    '{{ var("run_date") }}' AS dtf_Day_ID,
+    dsec.dim_security_id AS Dim_Security_ID,
+    sec.purchase_price AS purchase_price,
+    sec.market_value AS market_value,
+    sec.purchase_date AS purchase_date
+FROM {{ ref('t24_security') }} sec
+INNER JOIN {{ ref('dim_security') }} dsec
+    ON sec.security_id = dsec.security_id
+WHERE sec.security_id IS NOT NULL

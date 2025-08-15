@@ -17,6 +17,6 @@ WITH staged_service_type_data AS (
 {{ scd_type_2(
     source_table='staged_service_type_data',
     unique_key='service_type_code',
-    compare_columns=['description'],
+    compare_columns=['description', 'use_for'],
     surrogate_key_column = 'dim_service_type_id'
 )}}

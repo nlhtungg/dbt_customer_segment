@@ -1,301 +1,300 @@
-﻿Card_ID,Card_Service_Type,Card_Channel,Card_Service_Name,Card_Service_Detail,Amount,Description,Transaction_Date
-1274312229132389,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11767272,Chuyen khoan luong thang,2025-05-05 21:11:00
-7747222945810808,CKNB,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,18596878,Rut tien tai ATM,2025-06-08 14:42:16
-3289422083238535,CASH,TL,ATM,Rút tiền mặt từ thẻ,6425042,Chuyen khoan luong thang,2025-01-01 01:31:47
-1864088448826873,CASH,TL,TL,Rút tiền mặt từ thẻ,9005211,Chuyen tien cho nguoi than,2025-06-08 02:45:14
-3541134754552992,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,5389523,Gui tiet kiem ngan han,2025-03-16 15:36:28
-8164594934680774,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,13614643,Thanh toan hoa don dien,2024-04-11 15:19:44
-2472082252688597,CASH,TL,ATM,Rút tiền mặt từ thẻ,17514530,Tra gop the tin dung,2024-05-07 12:57:59
-9310165471608712,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,16512320,Chuyen khoan luong thang,2024-05-01 07:46:01
-8985919805449482,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,9423188,Gui tiet kiem ngan han,2025-07-15 17:13:19
-8183665901049487,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,9827220,Chuyen khoan luong thang,2024-05-07 13:10:39
-6174036361555213,CASH,ATM,TL,Rút tiền mặt từ thẻ,17469905,Nap tien dien thoai,2024-03-21 05:16:51
-9762532395099007,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,16940705,Thanh toan Internet,2024-07-20 04:28:00
-6719441464692707,LNH,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,12651879,Gui tiet kiem ngan han,2024-01-13 17:17:48
-1241777596930946,LNH,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,8772413,Gui tiet kiem ngan han,2025-05-06 22:20:14
-4614677765462673,CASH,TL,ATM,Rút tiền mặt từ thẻ,7702956,Nap tien dien thoai,2025-04-09 01:30:06
-3564174145914576,CASH,TL,ATM,Rút tiền mặt từ thẻ,7406317,Rut tien tai ATM,2025-07-06 03:41:01
-6307850426924236,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,16108353,Chuyen tien cho nguoi than,2024-02-16 14:34:18
-7500878697533689,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,14006096,Thanh toan Internet,2024-08-26 21:44:55
-7926193029624741,CASH,TL,ATM,Rút tiền mặt từ thẻ,13649216,Rut tien tai ATM,2024-09-14 08:44:58
-3725210495293969,CASH,TL,TL,Giao dịch ngoại tệ,10074948,Chuyen khoan luong thang,2024-03-04 10:00:20
-2840192893436223,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,5491797,Tra gop the tin dung,2024-06-26 02:07:50
-9307535689568765,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,514283,Gui tiet kiem ngan han,2024-11-06 22:57:09
-6643034199930202,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11520706,Thanh toan Internet,2025-07-14 06:02:21
-5848936097867384,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,840279,Tra gop the tin dung,2024-11-28 11:16:38
-5916664284042770,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,7773125,Gui tiet kiem ngan han,2024-08-28 21:32:40
-3986536228338453,CKNB,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10073768,Thanh toan hoa don dien,2024-06-17 19:26:13
-2404661970538600,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,9943205,Gui tiet kiem ngan han,2024-04-11 13:57:26
-1287015778428840,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,15527855,Rut tien tai ATM,2024-08-19 18:38:42
-8854155130298900,PMT,TL,CRE_CARD,Trích nợ thẻ tín dụng,12401996,Thanh toan Internet,2024-11-02 21:10:33
-4139237940631010,VTK,OTHER,SAVING,Gửi tiết kiệm bằng thẻ,12816867,Thanh toan hoa don dien,2025-04-12 20:34:57
-8470271139623946,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,7452061,Rut tien tai ATM,2025-05-28 08:39:35
-7758983588488393,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,19739989,Gui tiet kiem ngan han,2024-06-18 09:33:36
-3478312539667326,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,9586666,Chuyen tien cho nguoi than,2024-07-14 05:27:11
-2465801458907952,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12383948,Gui tiet kiem ngan han,2024-07-23 10:29:01
-1702677985149119,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,14407069,Thanh toan Internet,2024-08-28 18:28:46
-6317439284875661,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,10272025,Thanh toan Internet,2025-02-10 23:10:19
-8578276999301666,LNH,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10942786,Chuyen tien cho nguoi than,2025-02-09 02:58:49
-5614933557899722,PMT,ATM,POS_PAY,Rút tiền mặt tại POS,10960569,Gui tiet kiem ngan han,2025-08-07 14:15:31
-9198364351145344,LNH,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,16989429,Tra gop the tin dung,2024-06-20 07:02:09
-6772212490374685,CASH,ATM,TL,Nộp tiền mặt vào thẻ,7578004,Chuyen khoan luong thang,2024-08-06 04:56:32
-2898436246641348,PMT,POS,CRE_CARD,Trích nợ thẻ tín dụng,4609236,Gui tiet kiem ngan han,2024-02-01 09:16:50
-5715877360518338,CASH,TL,TL,Giao dịch ngoại tệ,11445401,Chuyen tien cho nguoi than,2025-03-19 07:09:57
-8541268968603581,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10408409,Nap tien dien thoai,2024-02-08 08:22:24
-7989309737896781,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11427347,Nap tien dien thoai,2024-08-09 07:48:26
-9108692618117137,CKNB,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,18864430,Nap tien dien thoai,2025-07-10 18:27:19
-7352468621215941,CASH,TL,ATM,Nộp tiền mặt vào thẻ,16586095,Thanh toan Internet,2024-11-05 04:08:30
-7891497087344538,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,5909547,Tra gop the tin dung,2024-12-05 12:43:03
-9906223470053144,CKNB,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16584273,Tra gop the tin dung,2024-11-22 04:41:36
-4654869094803584,VTK,IB,LN_PAY,Thanh toán khoản vay qua thẻ,9862415,Thanh toan hoa don dien,2024-10-30 10:15:55
-6374350596579054,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,19142510,Rut tien tai ATM,2025-06-27 06:58:47
-7907045259550323,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,2342902,Nap tien dien thoai,2025-04-19 00:06:57
-8900585415212108,LNH,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,14105035,Rut tien tai ATM,2024-07-03 10:14:30
-3894294693700660,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,10416982,Thanh toan hoa don dien,2025-08-07 09:38:53
-8083955211418510,PMT,POS,CRE_CARD,Trích nợ thẻ tín dụng,631715,Nap tien dien thoai,2025-06-01 06:22:42
-6102599045074192,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,2359709,Gui tiet kiem ngan han,2024-08-11 13:26:45
-6741729384622662,CASH,TL,ATM,Rút tiền mặt từ thẻ,19816179,Gui tiet kiem ngan han,2025-04-18 08:52:48
-2872600791633946,VTK,TL,SAVING,Gửi tiết kiệm bằng thẻ,15821932,Gui tiet kiem ngan han,2024-07-04 19:55:59
-1367615426912437,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,1412541,Gui tiet kiem ngan han,2025-01-04 21:58:18
-2634547651175167,LNH,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,17073101,Chuyen tien cho nguoi than,2024-02-17 06:12:56
-9697842376296431,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,11717766,Nap tien dien thoai,2025-03-17 14:11:20
-6265066301813414,CASH,TL,TL,Giao dịch ngoại tệ,12280095,Thanh toan Internet,2025-05-16 13:45:31
-6255976085940218,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,4906255,Thanh toan hoa don dien,2025-04-30 16:48:55
-5940917257803337,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,12216255,Rut tien tai ATM,2025-02-25 09:21:39
-6892012928009354,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,14654448,Nap tien dien thoai,2024-11-04 00:07:55
-9634162097268995,CASH,TL,TL,Nộp tiền mặt vào thẻ,7912886,Nap tien dien thoai,2025-02-13 16:53:18
-2921598473364404,LNH,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,17998258,Thanh toan Internet,2024-05-03 22:52:01
-8064543831635075,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2325806,Tra gop the tin dung,2024-01-25 23:26:06
-2282499604665889,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,11141209,Rut tien tai ATM,2025-03-16 06:06:36
-6001043667638090,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,112002,Tra gop the tin dung,2024-03-27 21:05:15
-9806907859260943,CASH,TL,TL,Rút tiền mặt từ thẻ,17478735,Thanh toan Internet,2025-06-04 06:24:10
-2468612423737348,PMT,ATM,POS_PAY,Thanh toán POS của thẻ Debit,14321088,Thanh toan Internet,2025-02-18 23:03:43
-6908753486117615,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,5476898,Thanh toan hoa don dien,2024-06-28 03:05:26
-4313144552512830,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6666269,Thanh toan Internet,2024-04-29 20:43:12
-3034191382653509,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,266086,Chuyen tien cho nguoi than,2025-04-23 22:40:36
-5334149983486208,PMT,TL,POS_PAY,Rút tiền mặt tại POS,10724397,Nap tien dien thoai,2025-07-28 09:37:32
-2952683355210913,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,14312073,Gui tiet kiem ngan han,2024-06-20 21:11:15
-9235825595452671,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10677596,Chuyen tien cho nguoi than,2025-03-07 08:31:13
-7058088513971412,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,14710517,Thanh toan Internet,2024-05-03 15:46:27
-9497033135965908,CASH,TL,TL,Rút tiền mặt từ thẻ,7499600,Chuyen tien cho nguoi than,2024-02-05 16:35:42
-7634811712287066,CASH,ATM,TL,Rút tiền mặt từ thẻ,10141223,Rut tien tai ATM,2024-04-27 10:45:03
-2604052198052621,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,15835424,Thanh toan Internet,2024-01-12 02:06:20
-4051008947207322,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,19347683,Tra gop the tin dung,2024-08-15 11:38:25
-3655227605222909,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,531348,Chuyen khoan luong thang,2025-07-02 22:33:58
-8050736078826564,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,15626222,Nap tien dien thoai,2024-05-20 23:47:22
-1495169706685474,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,14378404,Chuyen tien cho nguoi than,2025-01-15 12:24:05
-7659716453775539,CASH,TL,ATM,Rút tiền mặt từ thẻ,11510240,Thanh toan Internet,2024-02-11 09:32:19
-4543931995043211,CASH,TL,ATM,Nộp tiền mặt vào thẻ,6497218,Nap tien dien thoai,2024-03-05 22:22:32
-9040514849498256,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10961775,Tra gop the tin dung,2025-03-17 00:08:28
-4650461326083818,CKNB,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9381336,Tra gop the tin dung,2024-08-20 12:28:19
-3999891701086571,CASH,ATM,TL,Nộp tiền mặt vào thẻ,18893490,Chuyen khoan luong thang,2024-11-23 18:47:40
-1906785657451386,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,18899224,Thanh toan hoa don dien,2025-06-15 00:50:55
-7816837333065514,CASH,ATM,ATM,Rút tiền mặt từ thẻ,15312330,Chuyen tien cho nguoi than,2024-01-08 09:28:26
-3391070567705011,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,8652123,Nap tien dien thoai,2024-08-05 07:17:47
-5724017530341589,PMT,IB,POS_PAY,Rút tiền mặt tại POS,16264265,Rut tien tai ATM,2024-04-01 20:17:56
-1672357784496933,CASH,TL,POS_PAY,Rút tiền mặt tại POS,10152511,Chuyen khoan luong thang,2024-07-03 15:17:07
-8789931591639191,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,4009626,Thanh toan hoa don dien,2025-05-13 18:29:08
-1947540339072836,CASH,TL,ATM,Nộp tiền mặt vào thẻ,557195,Thanh toan Internet,2024-08-02 07:25:26
-9642575206661785,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,2653570,Chuyen tien cho nguoi than,2024-03-01 21:57:08
-8162659184994358,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,8110344,Thanh toan Internet,2024-09-01 13:12:59
-2572595335784658,PMT,ATM,CRE_CARD,Trích nợ thẻ tín dụng,12295304,Chuyen khoan luong thang,2024-09-18 04:02:13
-1909935114589167,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,19615781,Tra gop the tin dung,2024-09-13 23:08:28
-6003429896764133,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,5372005,Tra gop the tin dung,2025-06-20 16:58:46
-2381023681254324,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,10132979,Thanh toan hoa don dien,2025-01-21 08:49:14
-7837257147421371,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,2457762,Chuyen khoan luong thang,2025-01-09 00:08:42
-4432463779171270,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,12638938,Thanh toan hoa don dien,2025-04-03 04:58:57
-7337833128136680,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,17366373,Chuyen khoan luong thang,2024-09-09 13:04:29
-6358537538874930,CASH,TL,TL,Rút tiền mặt từ thẻ,15332406,Nap tien dien thoai,2024-12-06 14:13:57
-8097432458069452,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,12630879,Chuyen khoan luong thang,2024-07-29 02:29:06
-7156516808933556,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11932342,Chuyen khoan luong thang,2024-01-14 22:32:26
-5034882231318153,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,5762442,Nap tien dien thoai,2024-12-06 13:52:16
-7221034993699170,PMT,IB,CRE_CARD,Thanh toán thẻ tín dụng,2004729,Chuyen khoan luong thang,2024-11-18 18:34:08
-1299277409360776,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10339216,Chuyen khoan luong thang,2025-04-19 17:23:07
-4785955432994804,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13327619,Chuyen tien cho nguoi than,2025-04-30 01:50:34
-1327204418349679,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16353358,Rut tien tai ATM,2024-03-28 19:22:17
-8920145112740724,CKNB,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,15902409,Thanh toan Internet,2024-02-13 21:21:05
-3353700745792265,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8919131,Chuyen khoan luong thang,2025-02-06 20:53:43
-4314221824821807,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11422494,Thanh toan hoa don dien,2025-06-12 16:25:38
-8202296339624779,CASH,ATM,TL,Nộp tiền mặt vào thẻ,12536646,Nap tien dien thoai,2025-04-11 08:31:02
-6813342566581848,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,11249905,Thanh toan Internet,2025-07-29 14:23:55
-3792307381109401,VTK,OTHER,SAVING,Rút tiết kiệm sang thẻ,10673764,Rut tien tai ATM,2025-02-27 22:18:22
-6578907903988388,PMT,POS,POS_PAY,Rút tiền mặt tại POS,7333260,Thanh toan Internet,2025-05-23 05:22:50
-6891228412815759,PMT,TL,POS_PAY,Rút tiền mặt tại POS,701056,Rut tien tai ATM,2025-02-16 04:50:05
-7109394751286856,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13123253,Rut tien tai ATM,2024-08-17 10:31:27
-7231378322518731,VTK,MB,LN_PAY,Giải ngân khoản vay qua thẻ,10227058,Nap tien dien thoai,2025-01-09 10:15:57
-1500109284314898,CASH,ATM,ATM,Rút tiền mặt từ thẻ,9000004,Chuyen khoan luong thang,2025-03-05 18:11:54
-9066181568363227,CASH,TL,TL,Rút tiền mặt từ thẻ,6397799,Tra gop the tin dung,2024-06-18 09:33:51
-6555182236537837,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,9255692,Gui tiet kiem ngan han,2024-03-31 08:42:54
-9472414130454530,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,488875,Tra gop the tin dung,2025-04-03 22:17:40
-3969695462246961,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6946045,Rut tien tai ATM,2025-03-28 19:10:59
-2546695031082232,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10571301,Thanh toan Internet,2025-05-01 17:54:50
-8105902715459667,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,15092238,Tra gop the tin dung,2025-08-11 09:31:05
-5644362822675936,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,8175563,Tra gop the tin dung,2025-07-05 18:12:53
-9658823772271489,CASH,TL,ATM,Rút tiền mặt từ thẻ,1241800,Tra gop the tin dung,2025-04-04 04:42:23
-7367834231304578,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,8917874,Rut tien tai ATM,2024-09-01 09:14:35
-1088155380446359,CASH,TL,TL,Giao dịch ngoại tệ,15161260,Tra gop the tin dung,2024-01-29 20:48:04
-6112984530607458,CASH,TL,ATM,Rút tiền mặt từ thẻ,9184822,Gui tiet kiem ngan han,2025-02-14 22:18:25
-9196628646018326,LNH,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,3022496,Rut tien tai ATM,2024-12-25 01:58:06
-1043406246713704,CASH,ATM,TL,Rút tiền mặt từ thẻ,14437885,Gui tiet kiem ngan han,2024-09-10 17:34:49
-2852920793364542,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,478363,Chuyen khoan luong thang,2025-03-10 01:11:33
-8381780091516087,PMT,IB,CRE_CARD,Trích nợ thẻ tín dụng,8372238,Thanh toan Internet,2024-01-11 11:59:28
-6606690548594729,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6975007,Tra gop the tin dung,2025-05-30 19:10:40
-6379531923301299,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,1826818,Tra gop the tin dung,2024-11-08 01:36:28
-4469269034015694,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,12677823,Nap tien dien thoai,2025-03-01 16:53:09
-4591207840858074,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,6763729,Chuyen khoan luong thang,2024-05-25 10:19:42
-3820621973539184,CASH,ATM,TL,Rút tiền mặt từ thẻ,6577957,Chuyen khoan luong thang,2024-11-23 14:26:39
-4724631584576495,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11843032,Chuyen tien cho nguoi than,2025-07-14 14:11:11
-5333720645220383,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,16659828,Gui tiet kiem ngan han,2025-01-12 00:59:18
-7111377258939512,CASH,ATM,TL,Nộp tiền mặt vào thẻ,4329922,Rut tien tai ATM,2025-07-27 07:28:19
-8365515178773437,CASH,TL,TL,Giao dịch ngoại tệ,10735799,Thanh toan hoa don dien,2025-04-21 01:03:10
-7452273468330553,CASH,ATM,ATM,Rút tiền mặt từ thẻ,769631,Nap tien dien thoai,2025-01-09 15:53:52
-3459158594527428,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,1286079,Thanh toan hoa don dien,2025-05-15 01:21:18
-4251332149161848,PMT,IB,CRE_CARD,Thanh toán thẻ tín dụng,12611942,Rut tien tai ATM,2024-01-15 02:01:25
-2886800676653475,CASH,TL,POS_PAY,Rút tiền mặt tại POS,12115918,Nap tien dien thoai,2024-10-27 17:39:38
-3422288557721006,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,1277619,Thanh toan hoa don dien,2024-12-31 17:26:03
-1512960370625395,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,6994040,Thanh toan Internet,2024-12-19 19:51:21
-9716903438812813,PMT,TL,POS_PAY,Rút tiền mặt tại POS,7854110,Gui tiet kiem ngan han,2024-08-08 17:47:53
-6001122239748712,CASH,ATM,TL,Giao dịch ngoại tệ,19313074,Tra gop the tin dung,2024-11-12 09:41:28
-9809143345967338,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,14991232,Tra gop the tin dung,2024-11-28 08:45:08
-9859902275642072,CASH,TL,TL,Nộp tiền mặt vào thẻ,14735795,Thanh toan hoa don dien,2025-01-29 13:24:58
-3586973491018871,CASH,ATM,ATM,Rút tiền mặt từ thẻ,4721677,Thanh toan hoa don dien,2024-11-22 02:50:35
-9401657934200015,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12641970,Rut tien tai ATM,2024-03-16 03:44:50
-3519768871604250,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,15143775,Thanh toan hoa don dien,2024-02-01 01:55:54
-2320116790704849,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,15473612,Chuyen khoan luong thang,2024-03-27 16:59:27
-5240640419255380,CASH,TL,ATM,Nộp tiền mặt vào thẻ,9033559,Thanh toan Internet,2024-03-04 00:31:41
-2099659113006386,CASH,ATM,ATM,Rút tiền mặt từ thẻ,11646754,Chuyen tien cho nguoi than,2024-11-12 02:53:17
-2965569718674841,VTK,TL,SAVING,Gửi tiết kiệm bằng thẻ,2413858,Tra gop the tin dung,2024-06-16 10:00:40
-5678247166754654,VTK,IB,SAVING,Gửi tiết kiệm bằng thẻ,10033746,Tra gop the tin dung,2024-02-15 05:03:38
-9641473760656633,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8880793,Tra gop the tin dung,2024-05-12 03:31:59
-3974298477614985,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,6711039,Thanh toan Internet,2024-05-27 15:48:15
-2695475009099951,PMT,ATM,CRE_CARD,Thanh toán thẻ tín dụng,206191,Thanh toan Internet,2024-02-07 23:56:41
-5082667190134099,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,2670376,Chuyen tien cho nguoi than,2024-11-09 15:55:32
-7567898112599489,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,15773200,Nap tien dien thoai,2025-03-14 13:43:14
-1858549682988383,CASH,ATM,ATM,Rút tiền mặt từ thẻ,6065661,Gui tiet kiem ngan han,2024-03-29 18:15:05
-3365901801677359,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13472751,Tra gop the tin dung,2025-06-08 13:38:28
-7082810312822376,PMT,IB,POS_PAY,Rút tiền mặt tại POS,19882269,Tra gop the tin dung,2025-03-02 03:55:02
-1529799824340889,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12094598,Gui tiet kiem ngan han,2024-11-04 10:06:14
-4463126517332607,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,5218386,Nap tien dien thoai,2024-08-26 01:47:56
-1764342868487946,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,5892639,Rut tien tai ATM,2024-05-04 16:49:10
-5814234003120529,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10449916,Gui tiet kiem ngan han,2024-03-11 05:41:37
-2274263508052250,CKNB,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,15772319,Rut tien tai ATM,2024-02-08 02:01:22
-1766662223583378,PMT,POS,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,11886669,Tra gop the tin dung,2025-05-19 12:36:25
-5406878852942681,PMT,IB,POS_PAY,Rút tiền mặt tại POS,15680026,Thanh toan hoa don dien,2024-02-08 07:39:15
-3466407528569217,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,4093999,Tra gop the tin dung,2024-06-29 08:23:51
-1604940508755763,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,7804552,Chuyen khoan luong thang,2025-05-28 12:48:14
-6166598758362488,CASH,ATM,ATM,Rút tiền mặt từ thẻ,3174361,Nap tien dien thoai,2024-09-13 06:41:59
-1243933024400111,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10013436,Thanh toan hoa don dien,2024-06-05 09:44:35
-5177863634880920,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10649297,Chuyen khoan luong thang,2025-01-10 06:39:06
-8877525019324175,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,4360417,Chuyen tien cho nguoi than,2024-10-11 13:44:52
-3579718799358705,CASH,TL,ATM,Nộp tiền mặt vào thẻ,12233178,Thanh toan hoa don dien,2024-05-05 02:55:15
-6448702870640908,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,9636177,Rut tien tai ATM,2025-05-22 02:42:15
-5025348969011671,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,228138,Thanh toan Internet,2025-08-03 22:14:03
-6667135140145423,CKNB,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,2818304,Rut tien tai ATM,2024-09-16 02:05:22
-4234920017650475,CASH,TL,TL,Nộp tiền mặt vào thẻ,7597335,Nap tien dien thoai,2024-10-07 15:31:27
-8360071414563147,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,12335949,Nap tien dien thoai,2024-11-30 01:41:05
-4602140019120848,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,11916724,Chuyen khoan luong thang,2025-02-09 02:08:20
-4017882088623046,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,9781236,Nap tien dien thoai,2025-03-03 23:27:28
-5435738053920586,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,3754415,Rut tien tai ATM,2025-01-01 19:37:48
-5753803036030319,CASH,TL,TL,Rút tiền mặt từ thẻ,4917290,Chuyen khoan luong thang,2024-03-26 08:09:57
-1614694680120465,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,17190100,Chuyen tien cho nguoi than,2024-07-31 04:35:33
-8224491465774441,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,19252095,Chuyen khoan luong thang,2025-04-18 14:36:01
-5953203281648932,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,4308342,Nap tien dien thoai,2025-04-01 22:16:50
-9452021834335318,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,18516662,Tra gop the tin dung,2025-06-30 13:36:03
-6232188736226448,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,11910492,Thanh toan hoa don dien,2024-10-17 13:15:21
-9080162628638983,LNH,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,2595747,Nap tien dien thoai,2024-11-27 13:25:02
-7301581323810570,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,18701551,Nap tien dien thoai,2025-04-13 00:59:15
-4998647223367492,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11140546,Thanh toan Internet,2024-12-02 01:15:52
-8447720357097928,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,8500501,Thanh toan hoa don dien,2024-06-05 12:53:57
-3384569003932233,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,13100866,Tra gop the tin dung,2024-12-20 22:30:14
-9266593477871347,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9574494,Chuyen khoan luong thang,2025-04-16 20:36:20
-4322035094533288,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,6185534,Thanh toan hoa don dien,2024-04-02 15:19:12
-2917739389550536,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,11400604,Thanh toan hoa don dien,2025-04-30 23:57:09
-2583519923893993,CASH,TL,ATM,Nộp tiền mặt vào thẻ,12099200,Nap tien dien thoai,2024-05-09 05:25:16
-8506091713072991,PMT,MB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,13841080,Gui tiet kiem ngan han,2025-01-30 14:05:44
-1777683258393469,CKNB,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10108201,Thanh toan hoa don dien,2025-02-28 20:59:11
-5170792313675149,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,9253651,Nap tien dien thoai,2025-07-23 16:11:24
-9522727905478336,CASH,TL,POS_PAY,Thanh toán POS của thẻ Debit,6143557,Thanh toan hoa don dien,2024-09-14 23:40:29
-9942052383335460,VTK,MB,SAVING,Rút tiết kiệm sang thẻ,11510172,Thanh toan Internet,2025-01-16 07:29:08
-3781272991610201,CASH,TL,TL,Giao dịch ngoại tệ,1337543,Thanh toan Internet,2025-03-12 00:31:23
-9933874301610125,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,19114565,Chuyen tien cho nguoi than,2024-12-28 16:24:37
-3792121938614177,CASH,TL,TL,Giao dịch ngoại tệ,9902733,Gui tiet kiem ngan han,2025-03-22 05:41:39
-1772462492371657,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,1336173,Thanh toan Internet,2024-09-21 08:35:21
-7791117555844236,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,4832612,Rut tien tai ATM,2024-01-22 08:07:06
-4377873497454843,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,15510731,Chuyen khoan luong thang,2024-04-29 03:37:49
-3871318942574838,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8340911,Chuyen khoan luong thang,2024-09-28 16:15:29
-2280012238248577,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,12419000,Nap tien dien thoai,2024-08-28 23:52:06
-2511349251073453,VTK,OTHER,SAVING,Tất toán tiết kiệm và trả lãi,7308176,Tra gop the tin dung,2025-07-25 15:42:36
-9947538547537218,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,5066088,Tra gop the tin dung,2025-07-23 02:12:50
-6862812398516936,CASH,ATM,ATM,Rút tiền mặt từ thẻ,18984690,Nap tien dien thoai,2024-08-26 14:46:42
-1478744037036569,PMT,MB,POS_PAY,Rút tiền mặt tại POS,8503269,Nap tien dien thoai,2025-04-10 15:42:43
-8369488069381366,CASH,ATM,ATM,Rút tiền mặt từ thẻ,10117503,Thanh toan hoa don dien,2024-05-14 17:07:36
-3840915138547700,CASH,TL,POS_PAY,Rút tiền mặt tại POS,6212237,Chuyen khoan luong thang,2024-04-19 11:51:09
-1007440770834072,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,19174348,Thanh toan Internet,2024-03-19 20:35:25
-3612160476392408,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,2568191,Thanh toan Internet,2024-12-11 13:10:32
-2101626465826794,CASH,TL,POS_PAY,Rút tiền mặt tại POS,12262044,Rut tien tai ATM,2024-09-08 15:46:21
-3402654541908173,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,11044754,Thanh toan Internet,2025-02-11 00:51:07
-4280489758778812,CASH,TL,TL,Giao dịch ngoại tệ,17690531,Gui tiet kiem ngan han,2024-05-19 23:55:51
-6037265876396953,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,19045870,Tra gop the tin dung,2025-07-29 08:07:55
-2251175052466235,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,18262743,Nap tien dien thoai,2024-10-20 12:38:16
-8145297215093088,CASH,ATM,TL,Nộp tiền mặt vào thẻ,13850714,Chuyen tien cho nguoi than,2025-08-07 15:17:12
-2446207326294817,CASH,ATM,TL,Giao dịch ngoại tệ,7345035,Thanh toan hoa don dien,2025-07-14 04:05:48
-8770213898078108,CASH,TL,TL,Nộp tiền mặt vào thẻ,19118432,Thanh toan Internet,2025-06-15 07:17:54
-2076512629891316,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,17974173,Nap tien dien thoai,2024-06-17 23:29:13
-4582330236008017,LNH,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,11685055,Thanh toan hoa don dien,2024-09-05 10:18:06
-6457421003094646,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,15195346,Gui tiet kiem ngan han,2025-06-13 19:58:42
-2111744216734268,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,7396335,Gui tiet kiem ngan han,2024-01-08 12:12:17
-7466898655978005,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,15418433,Thanh toan hoa don dien,2024-01-10 02:09:34
-1934768091332070,CASH,ATM,TL,Rút tiền mặt từ thẻ,6059591,Tra gop the tin dung,2025-02-23 04:14:31
-6353133439266480,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,4446188,Chuyen tien cho nguoi than,2024-10-26 05:08:51
-3384896310471873,LNH,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,12537664,Chuyen khoan luong thang,2024-04-25 18:36:55
-3855857275556783,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,14719749,Chuyen khoan luong thang,2024-09-13 21:24:27
-1410324184566747,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,9610375,Chuyen tien cho nguoi than,2024-04-07 22:20:09
-2981409502400793,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,6115770,Gui tiet kiem ngan han,2024-05-11 03:21:24
-3819666310829323,CASH,ATM,TL,Nộp tiền mặt vào thẻ,18429993,Chuyen tien cho nguoi than,2025-03-16 02:58:04
-7976103798702281,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,12863386,Thanh toan Internet,2025-03-14 11:34:35
-1803331138664602,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,10601591,Thanh toan Internet,2024-10-17 17:37:41
-9811438777971295,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,2608565,Chuyen khoan luong thang,2024-10-02 14:26:00
-3895081782991537,CASH,TL,TL,Rút tiền mặt từ thẻ,156103,Nap tien dien thoai,2024-12-08 14:25:03
-9295128564009320,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,1901118,Chuyen khoan luong thang,2025-08-06 08:18:54
-5764702289961832,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,9648478,Tra gop the tin dung,2024-04-15 09:46:06
-9559912439587761,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11639092,Chuyen khoan luong thang,2024-01-08 22:25:33
-6645850349181208,PMT,ATM,POS_PAY,Thanh toán POS của thẻ Debit,16771933,Thanh toan hoa don dien,2024-02-05 23:21:43
-4908766165629868,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,6605733,Rut tien tai ATM,2025-07-03 10:38:46
-4652302136908670,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,3564680,Gui tiet kiem ngan han,2025-03-19 22:16:31
-2257669522717260,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,4620562,Chuyen tien cho nguoi than,2025-05-23 03:19:34
-6578082358197689,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,4250695,Tra gop the tin dung,2024-02-11 23:22:10
-3349544099838727,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,15573720,Rut tien tai ATM,2024-10-17 03:16:30
-6330293101713987,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,7381227,Chuyen tien cho nguoi than,2024-12-07 21:49:30
-4357586548641826,CASH,ATM,ATM,Rút tiền mặt từ thẻ,7871659,Thanh toan hoa don dien,2024-03-05 13:43:55
-4900854559975719,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,2797120,Nap tien dien thoai,2024-08-26 21:17:02
-4965716575732455,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,6160664,Nap tien dien thoai,2024-12-22 21:52:16
-1442297661828670,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,18630276,Thanh toan hoa don dien,2025-01-01 04:41:06
-2195511092227620,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,15232,Nap tien dien thoai,2025-06-22 11:19:25
-7153106425950544,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,10983117,Nap tien dien thoai,2024-04-05 08:08:21
-5284472000148359,CASH,ATM,TL,Nộp tiền mặt vào thẻ,10955318,Nap tien dien thoai,2024-09-16 20:59:58
-1148519837856496,PMT,TL,POS_PAY,Thanh toán POS của thẻ Debit,5152281,Gui tiet kiem ngan han,2025-01-08 22:14:46
-6334627694400506,VTK,IB,LN_PAY,Thanh toán khoản vay qua thẻ,10661833,Rut tien tai ATM,2024-10-31 19:26:41
-3102714253841314,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,4502476,Chuyen tien cho nguoi than,2025-03-20 10:12:40
-5507286215999449,CASH,TL,TL,Giao dịch ngoại tệ,5321835,Rut tien tai ATM,2024-12-14 22:24:03
-1458737424623675,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,4094071,Chuyen khoan luong thang,2025-05-27 18:04:03
-4484279933429010,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9247267,Thanh toan Internet,2024-10-10 05:37:20
-6490719260636718,CASH,TL,TL,Giao dịch ngoại tệ,705895,Chuyen tien cho nguoi than,2024-04-18 03:47:01
-5976890332865089,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16322980,Tra gop the tin dung,2025-05-29 23:36:45
-9781761450784401,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,1864714,Chuyen tien cho nguoi than,2024-04-27 23:10:30
-5836945156633630,CASH,TL,TL,Giao dịch ngoại tệ,8388534,Nap tien dien thoai,2025-06-24 23:11:07
-8544040520084061,LNH,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,302209,Thanh toan Internet,2024-04-03 21:57:06
-4852534748614658,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,1688254,Chuyen khoan luong thang,2024-10-13 04:06:26
-8205767161014008,CKNB,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2284174,Gui tiet kiem ngan han,2024-05-10 18:00:25
-7503158522987584,PMT,IB,POS_PAY,Thanh toán POS của thẻ Debit,144763,Chuyen tien cho nguoi than,2024-02-14 19:35:17
-3788774766636372,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,6401115,Gui tiet kiem ngan han,2025-06-02 00:58:11
-3663392895915094,LNH,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,5146167,Tra gop the tin dung,2025-07-02 17:07:12
-3720696297533879,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2856787,Thanh toan Internet,2025-05-30 07:28:26
-7709287032545903,CASH,ATM,TL,Nộp tiền mặt vào thẻ,3612709,Nap tien dien thoai,2024-07-31 16:38:11
-6617496518377243,CASH,TL,POS_PAY,Rút tiền mặt tại POS,9910198,Thanh toan hoa don dien,2024-10-15 17:22:06
-4671509472441680,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,3332789,Tra gop the tin dung,2024-12-31 05:32:15
-4231541934385301,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11209712,Thanh toan Internet,2024-02-01 21:16:27
-1373035445767207,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,18872181,Thanh toan hoa don dien,2025-07-31 00:44:16
-1430303856546272,CASH,TL,TL,Rút tiền mặt từ thẻ,14290149,Tra gop the tin dung,2024-09-24 17:52:31
-6800663534928232,VTK,MB,LN_PAY,Giải ngân khoản vay qua thẻ,12945162,Thanh toan Internet,2024-06-04 07:57:37
-6099684919353267,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,721102,Tra gop the tin dung,2025-04-16 18:44:41
-4110121680821802,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,12068349,Chuyen khoan luong thang,2025-06-05 14:18:56
+﻿Card_Transaction_ID,Card_ID,Card_Service_Type,Card_Channel,Card_Service_Name,Card_Service_Detail,Amount,Description,Transaction_Date
+1,4063867717586612,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11767272,Chuyen khoan luong thang,2025-05-05 21:11:00
+2,7747222945810808,CKNB,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,18596878,Rut tien tai ATM,2025-06-08 14:42:16
+3,3289422083238535,CASH,TL,ATM,Rút tiền mặt từ thẻ,6425042,Chuyen khoan luong thang,2025-01-01 01:31:47
+4,1864088448826873,CASH,TL,TL,Rút tiền mặt từ thẻ,9005211,Chuyen tien cho nguoi than,2025-06-08 02:45:14
+5,3541134754552992,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,5389523,Gui tiet kiem ngan han,2025-03-16 15:36:28
+6,8164594934680774,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,13614643,Thanh toan hoa don dien,2024-04-11 15:19:44
+7,2472082252688597,CASH,TL,ATM,Rút tiền mặt từ thẻ,17514530,Tra gop the tin dung,2024-05-07 12:57:59
+8,9310165471608712,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,16512320,Chuyen khoan luong thang,2024-05-01 07:46:01
+9,8985919805449482,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,9423188,Gui tiet kiem ngan han,2025-07-15 17:13:19
+10,8183665901049487,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,9827220,Chuyen khoan luong thang,2024-05-07 13:10:39
+11,6174036361555213,CASH,ATM,TL,Rút tiền mặt từ thẻ,17469905,Nap tien dien thoai,2024-03-21 05:16:51
+12,9762532395099007,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,16940705,Thanh toan Internet,2024-07-20 04:28:00
+13,6719441464692707,LNH,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,12651879,Gui tiet kiem ngan han,2024-01-13 17:17:48
+14,1241777596930946,LNH,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,8772413,Gui tiet kiem ngan han,2025-05-06 22:20:14
+15,4614677765462673,CASH,TL,ATM,Rút tiền mặt từ thẻ,7702956,Nap tien dien thoai,2025-04-09 01:30:06
+16,3564174145914576,CASH,TL,ATM,Rút tiền mặt từ thẻ,7406317,Rut tien tai ATM,2025-07-06 03:41:01
+17,6307850426924236,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,16108353,Chuyen tien cho nguoi than,2024-02-16 14:34:18
+18,7500878697533689,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,14006096,Thanh toan Internet,2024-08-26 21:44:55
+19,7926193029624741,CASH,TL,ATM,Rút tiền mặt từ thẻ,13649216,Rut tien tai ATM,2024-09-14 08:44:58
+20,3725210495293969,CASH,TL,TL,Giao dịch ngoại tệ,10074948,Chuyen khoan luong thang,2024-03-04 10:00:20
+21,2840192893436223,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,5491797,Tra gop the tin dung,2024-06-26 02:07:50
+22,9307535689568765,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,514283,Gui tiet kiem ngan han,2024-11-06 22:57:09
+23,6643034199930202,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11520706,Thanh toan Internet,2025-07-14 06:02:21
+24,5848936097867384,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,840279,Tra gop the tin dung,2024-11-28 11:16:38
+25,5916664284042770,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,7773125,Gui tiet kiem ngan han,2024-08-28 21:32:40
+26,3986536228338453,CKNB,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10073768,Thanh toan hoa don dien,2024-06-17 19:26:13
+27,2404661970538600,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,9943205,Gui tiet kiem ngan han,2024-04-11 13:57:26
+28,1287015778428840,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,15527855,Rut tien tai ATM,2024-08-19 18:38:42
+29,8854155130298900,PMT,TL,CRE_CARD,Trích nợ thẻ tín dụng,12401996,Thanh toan Internet,2024-11-02 21:10:33
+30,4139237940631010,VTK,OTHER,SAVING,Gửi tiết kiệm bằng thẻ,12816867,Thanh toan hoa don dien,2025-04-12 20:34:57
+31,8470271139623946,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,7452061,Rut tien tai ATM,2025-05-28 08:39:35
+32,7758983588488393,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,19739989,Gui tiet kiem ngan han,2024-06-18 09:33:36
+33,3478312539667326,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,9586666,Chuyen tien cho nguoi than,2024-07-14 05:27:11
+34,2465801458907952,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12383948,Gui tiet kiem ngan han,2024-07-23 10:29:01
+35,1702677985149119,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,14407069,Thanh toan Internet,2024-08-28 18:28:46
+36,6317439284875661,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,10272025,Thanh toan Internet,2025-02-10 23:10:19
+37,8578276999301666,LNH,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10942786,Chuyen tien cho nguoi than,2025-02-09 02:58:49
+38,5614933557899722,PMT,ATM,POS_PAY,Rút tiền mặt tại POS,10960569,Gui tiet kiem ngan han,2025-08-07 14:15:31
+39,9198364351145344,LNH,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,16989429,Tra gop the tin dung,2024-06-20 07:02:09
+40,6772212490374685,CASH,ATM,TL,Nộp tiền mặt vào thẻ,7578004,Chuyen khoan luong thang,2024-08-06 04:56:32
+41,2898436246641348,PMT,POS,CRE_CARD,Trích nợ thẻ tín dụng,4609236,Gui tiet kiem ngan han,2024-02-01 09:16:50
+42,5715877360518338,CASH,TL,TL,Giao dịch ngoại tệ,11445401,Chuyen tien cho nguoi than,2025-03-19 07:09:57
+43,8541268968603581,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10408409,Nap tien dien thoai,2024-02-08 08:22:24
+44,7989309737896781,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11427347,Nap tien dien thoai,2024-08-09 07:48:26
+45,9108692618117137,CKNB,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,18864430,Nap tien dien thoai,2025-07-10 18:27:19
+46,7352468621215941,CASH,TL,ATM,Nộp tiền mặt vào thẻ,16586095,Thanh toan Internet,2024-11-05 04:08:30
+47,7891497087344538,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,5909547,Tra gop the tin dung,2024-12-05 12:43:03
+48,9906223470053144,CKNB,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16584273,Tra gop the tin dung,2024-11-22 04:41:36
+49,4654869094803584,VTK,IB,LN_PAY,Thanh toán khoản vay qua thẻ,9862415,Thanh toan hoa don dien,2024-10-30 10:15:55
+50,6374350596579054,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,19142510,Rut tien tai ATM,2025-06-27 06:58:47
+51,7907045259550323,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,2342902,Nap tien dien thoai,2025-04-19 00:06:57
+52,8900585415212108,LNH,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,14105035,Rut tien tai ATM,2024-07-03 10:14:30
+53,3894294693700660,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,10416982,Thanh toan hoa don dien,2025-08-07 09:38:53
+54,8083955211418510,PMT,POS,CRE_CARD,Trích nợ thẻ tín dụng,631715,Nap tien dien thoai,2025-06-01 06:22:42
+55,6102599045074192,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,2359709,Gui tiet kiem ngan han,2024-08-11 13:26:45
+56,6741729384622662,CASH,TL,ATM,Rút tiền mặt từ thẻ,19816179,Gui tiet kiem ngan han,2025-04-18 08:52:48
+57,2872600791633946,VTK,TL,SAVING,Gửi tiết kiệm bằng thẻ,15821932,Gui tiet kiem ngan han,2024-07-04 19:55:59
+58,1367615426912437,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,1412541,Gui tiet kiem ngan han,2025-01-04 21:58:18
+59,2634547651175167,LNH,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,17073101,Chuyen tien cho nguoi than,2024-02-17 06:12:56
+60,9697842376296431,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,11717766,Nap tien dien thoai,2025-03-17 14:11:20
+61,6265066301813414,CASH,TL,TL,Giao dịch ngoại tệ,12280095,Thanh toan Internet,2025-05-16 13:45:31
+62,6255976085940218,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,4906255,Thanh toan hoa don dien,2025-04-30 16:48:55
+63,5940917257803337,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,12216255,Rut tien tai ATM,2025-02-25 09:21:39
+64,6892012928009354,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,14654448,Nap tien dien thoai,2024-11-04 00:07:55
+65,9634162097268995,CASH,TL,TL,Nộp tiền mặt vào thẻ,7912886,Nap tien dien thoai,2025-02-13 16:53:18
+66,2921598473364404,LNH,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,17998258,Thanh toan Internet,2024-05-03 22:52:01
+67,8064543831635075,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2325806,Tra gop the tin dung,2024-01-25 23:26:06
+68,2282499604665889,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,11141209,Rut tien tai ATM,2025-03-16 06:06:36
+69,6001043667638090,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,112002,Tra gop the tin dung,2024-03-27 21:05:15
+70,9806907859260943,CASH,TL,TL,Rút tiền mặt từ thẻ,17478735,Thanh toan Internet,2025-06-04 06:24:10
+71,2468612423737348,PMT,ATM,POS_PAY,Thanh toán POS của thẻ Debit,14321088,Thanh toan Internet,2025-02-18 23:03:43
+72,6908753486117615,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,5476898,Thanh toan hoa don dien,2024-06-28 03:05:26
+73,4313144552512830,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6666269,Thanh toan Internet,2024-04-29 20:43:12
+74,3034191382653509,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,266086,Chuyen tien cho nguoi than,2025-04-23 22:40:36
+75,5334149983486208,PMT,TL,POS_PAY,Rút tiền mặt tại POS,10724397,Nap tien dien thoai,2025-07-28 09:37:32
+76,2952683355210913,PMT,POS,POS_PAY,Thanh toán POS của thẻ Debit,14312073,Gui tiet kiem ngan han,2024-06-20 21:11:15
+77,9235825595452671,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10677596,Chuyen tien cho nguoi than,2025-03-07 08:31:13
+78,7058088513971412,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,14710517,Thanh toan Internet,2024-05-03 15:46:27
+79,9497033135965908,CASH,TL,TL,Rút tiền mặt từ thẻ,7499600,Chuyen tien cho nguoi than,2024-02-05 16:35:42
+80,7634811712287066,CASH,ATM,TL,Rút tiền mặt từ thẻ,10141223,Rut tien tai ATM,2024-04-27 10:45:03
+81,2604052198052621,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,15835424,Thanh toan Internet,2024-01-12 02:06:20
+82,4051008947207322,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,19347683,Tra gop the tin dung,2024-08-15 11:38:25
+83,3655227605222909,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,531348,Chuyen khoan luong thang,2025-07-02 22:33:58
+84,8050736078826564,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,15626222,Nap tien dien thoai,2024-05-20 23:47:22
+85,1495169706685474,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,14378404,Chuyen tien cho nguoi than,2025-01-15 12:24:05
+86,7659716453775539,CASH,TL,ATM,Rút tiền mặt từ thẻ,11510240,Thanh toan Internet,2024-02-11 09:32:19
+87,4543931995043211,CASH,TL,ATM,Nộp tiền mặt vào thẻ,6497218,Nap tien dien thoai,2024-03-05 22:22:32
+88,9040514849498256,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10961775,Tra gop the tin dung,2025-03-17 00:08:28
+89,4650461326083818,CKNB,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9381336,Tra gop the tin dung,2024-08-20 12:28:19
+90,3999891701086571,CASH,ATM,TL,Nộp tiền mặt vào thẻ,18893490,Chuyen khoan luong thang,2024-11-23 18:47:40
+91,1906785657451386,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,18899224,Thanh toan hoa don dien,2025-06-15 00:50:55
+92,7816837333065514,CASH,ATM,ATM,Rút tiền mặt từ thẻ,15312330,Chuyen tien cho nguoi than,2024-01-08 09:28:26
+93,3391070567705011,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,8652123,Nap tien dien thoai,2024-08-05 07:17:47
+94,5724017530341589,PMT,IB,POS_PAY,Rút tiền mặt tại POS,16264265,Rut tien tai ATM,2024-04-01 20:17:56
+95,1672357784496933,CASH,TL,POS_PAY,Rút tiền mặt tại POS,10152511,Chuyen khoan luong thang,2024-07-03 15:17:07
+96,8789931591639191,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,4009626,Thanh toan hoa don dien,2025-05-13 18:29:08
+97,1947540339072836,CASH,TL,ATM,Nộp tiền mặt vào thẻ,557195,Thanh toan Internet,2024-08-02 07:25:26
+98,9642575206661785,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,2653570,Chuyen tien cho nguoi than,2024-03-01 21:57:08
+99,8162659184994358,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,8110344,Thanh toan Internet,2024-09-01 13:12:59
+100,2572595335784658,PMT,ATM,CRE_CARD,Trích nợ thẻ tín dụng,12295304,Chuyen khoan luong thang,2024-09-18 04:02:13
+101,1909935114589167,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,19615781,Tra gop the tin dung,2024-09-13 23:08:28
+102,6003429896764133,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,5372005,Tra gop the tin dung,2025-06-20 16:58:46
+103,2381023681254324,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,10132979,Thanh toan hoa don dien,2025-01-21 08:49:14
+104,7837257147421371,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,2457762,Chuyen khoan luong thang,2025-01-09 00:08:42
+105,4432463779171270,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,12638938,Thanh toan hoa don dien,2025-04-03 04:58:57
+106,7337833128136680,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,17366373,Chuyen khoan luong thang,2024-09-09 13:04:29
+107,6358537538874930,CASH,TL,TL,Rút tiền mặt từ thẻ,15332406,Nap tien dien thoai,2024-12-06 14:13:57
+108,8097432458069452,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,12630879,Chuyen khoan luong thang,2024-07-29 02:29:06
+109,7156516808933556,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11932342,Chuyen khoan luong thang,2024-01-14 22:32:26
+110,5034882231318153,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,5762442,Nap tien dien thoai,2024-12-06 13:52:16
+111,7221034993699170,PMT,IB,CRE_CARD,Thanh toán thẻ tín dụng,2004729,Chuyen khoan luong thang,2024-11-18 18:34:08
+112,1299277409360776,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10339216,Chuyen khoan luong thang,2025-04-19 17:23:07
+113,4785955432994804,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13327619,Chuyen tien cho nguoi than,2025-04-30 01:50:34
+114,1327204418349679,CKNB,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16353358,Rut tien tai ATM,2024-03-28 19:22:17
+115,8920145112740724,CKNB,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,15902409,Thanh toan Internet,2024-02-13 21:21:05
+116,3353700745792265,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8919131,Chuyen khoan luong thang,2025-02-06 20:53:43
+117,4314221824821807,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11422494,Thanh toan hoa don dien,2025-06-12 16:25:38
+118,8202296339624779,CASH,ATM,TL,Nộp tiền mặt vào thẻ,12536646,Nap tien dien thoai,2025-04-11 08:31:02
+119,6813342566581848,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,11249905,Thanh toan Internet,2025-07-29 14:23:55
+120,3792307381109401,VTK,OTHER,SAVING,Rút tiết kiệm sang thẻ,10673764,Rut tien tai ATM,2025-02-27 22:18:22
+121,6578907903988388,PMT,POS,POS_PAY,Rút tiền mặt tại POS,7333260,Thanh toan Internet,2025-05-23 05:22:50
+122,6891228412815759,PMT,TL,POS_PAY,Rút tiền mặt tại POS,701056,Rut tien tai ATM,2025-02-16 04:50:05
+123,7109394751286856,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13123253,Rut tien tai ATM,2024-08-17 10:31:27
+124,7231378322518731,VTK,MB,LN_PAY,Giải ngân khoản vay qua thẻ,10227058,Nap tien dien thoai,2025-01-09 10:15:57
+125,1500109284314898,CASH,ATM,ATM,Rút tiền mặt từ thẻ,9000004,Chuyen khoan luong thang,2025-03-05 18:11:54
+126,9066181568363227,CASH,TL,TL,Rút tiền mặt từ thẻ,6397799,Tra gop the tin dung,2024-06-18 09:33:51
+127,6555182236537837,PMT,POS,CRE_CARD,Thanh toán thẻ tín dụng,9255692,Gui tiet kiem ngan han,2024-03-31 08:42:54
+128,9472414130454530,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,488875,Tra gop the tin dung,2025-04-03 22:17:40
+129,3969695462246961,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6946045,Rut tien tai ATM,2025-03-28 19:10:59
+130,2546695031082232,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,10571301,Thanh toan Internet,2025-05-01 17:54:50
+131,8105902715459667,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,15092238,Tra gop the tin dung,2025-08-11 09:31:05
+132,5644362822675936,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,8175563,Tra gop the tin dung,2025-07-05 18:12:53
+133,7367834231304578,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,8917874,Rut tien tai ATM,2024-09-01 09:14:35
+134,1088155380446359,CASH,TL,TL,Giao dịch ngoại tệ,15161260,Tra gop the tin dung,2024-01-29 20:48:04
+135,6112984530607458,CASH,TL,ATM,Rút tiền mặt từ thẻ,9184822,Gui tiet kiem ngan han,2025-02-14 22:18:25
+136,9196628646018326,LNH,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,3022496,Rut tien tai ATM,2024-12-25 01:58:06
+137,1043406246713704,CASH,ATM,TL,Rút tiền mặt từ thẻ,14437885,Gui tiet kiem ngan han,2024-09-10 17:34:49
+138,2852920793364542,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,478363,Chuyen khoan luong thang,2025-03-10 01:11:33
+139,8381780091516087,PMT,IB,CRE_CARD,Trích nợ thẻ tín dụng,8372238,Thanh toan Internet,2024-01-11 11:59:28
+140,6606690548594729,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,6975007,Tra gop the tin dung,2025-05-30 19:10:40
+141,6379531923301299,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,1826818,Tra gop the tin dung,2024-11-08 01:36:28
+142,4469269034015694,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,12677823,Nap tien dien thoai,2025-03-01 16:53:09
+143,4591207840858074,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,6763729,Chuyen khoan luong thang,2024-05-25 10:19:42
+144,3820621973539184,CASH,ATM,TL,Rút tiền mặt từ thẻ,6577957,Chuyen khoan luong thang,2024-11-23 14:26:39
+145,4724631584576495,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11843032,Chuyen tien cho nguoi than,2025-07-14 14:11:11
+146,5333720645220383,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,16659828,Gui tiet kiem ngan han,2025-01-12 00:59:18
+147,7111377258939512,CASH,ATM,TL,Nộp tiền mặt vào thẻ,4329922,Rut tien tai ATM,2025-07-27 07:28:19
+148,8365515178773437,CASH,TL,TL,Giao dịch ngoại tệ,10735799,Thanh toan hoa don dien,2025-04-21 01:03:10
+149,7452273468330553,CASH,ATM,ATM,Rút tiền mặt từ thẻ,769631,Nap tien dien thoai,2025-01-09 15:53:52
+150,3459158594527428,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,1286079,Thanh toan hoa don dien,2025-05-15 01:21:18
+151,4251332149161848,PMT,IB,CRE_CARD,Thanh toán thẻ tín dụng,12611942,Rut tien tai ATM,2024-01-15 02:01:25
+152,2886800676653475,CASH,TL,POS_PAY,Rút tiền mặt tại POS,12115918,Nap tien dien thoai,2024-10-27 17:39:38
+153,3422288557721006,VTK,MB,SAVING,Gửi tiết kiệm bằng thẻ,1277619,Thanh toan hoa don dien,2024-12-31 17:26:03
+154,1512960370625395,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,6994040,Thanh toan Internet,2024-12-19 19:51:21
+155,9716903438812813,PMT,TL,POS_PAY,Rút tiền mặt tại POS,7854110,Gui tiet kiem ngan han,2024-08-08 17:47:53
+156,6001122239748712,CASH,ATM,TL,Giao dịch ngoại tệ,19313074,Tra gop the tin dung,2024-11-12 09:41:28
+157,9809143345967338,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,14991232,Tra gop the tin dung,2024-11-28 08:45:08
+158,9859902275642072,CASH,TL,TL,Nộp tiền mặt vào thẻ,14735795,Thanh toan hoa don dien,2025-01-29 13:24:58
+159,3586973491018871,CASH,ATM,ATM,Rút tiền mặt từ thẻ,4721677,Thanh toan hoa don dien,2024-11-22 02:50:35
+160,9401657934200015,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12641970,Rut tien tai ATM,2024-03-16 03:44:50
+161,3519768871604250,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,15143775,Thanh toan hoa don dien,2024-02-01 01:55:54
+162,2320116790704849,CKNB,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,15473612,Chuyen khoan luong thang,2024-03-27 16:59:27
+163,5240640419255380,CASH,TL,ATM,Nộp tiền mặt vào thẻ,9033559,Thanh toan Internet,2024-03-04 00:31:41
+164,2099659113006386,CASH,ATM,ATM,Rút tiền mặt từ thẻ,11646754,Chuyen tien cho nguoi than,2024-11-12 02:53:17
+165,2965569718674841,VTK,TL,SAVING,Gửi tiết kiệm bằng thẻ,2413858,Tra gop the tin dung,2024-06-16 10:00:40
+166,5678247166754654,VTK,IB,SAVING,Gửi tiết kiệm bằng thẻ,10033746,Tra gop the tin dung,2024-02-15 05:03:38
+167,9641473760656633,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8880793,Tra gop the tin dung,2024-05-12 03:31:59
+168,3974298477614985,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,6711039,Thanh toan Internet,2024-05-27 15:48:15
+169,2695475009099951,PMT,ATM,CRE_CARD,Thanh toán thẻ tín dụng,206191,Thanh toan Internet,2024-02-07 23:56:41
+170,5082667190134099,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,2670376,Chuyen tien cho nguoi than,2024-11-09 15:55:32
+171,7567898112599489,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,15773200,Nap tien dien thoai,2025-03-14 13:43:14
+172,1858549682988383,CASH,ATM,ATM,Rút tiền mặt từ thẻ,6065661,Gui tiet kiem ngan han,2024-03-29 18:15:05
+173,3365901801677359,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,13472751,Tra gop the tin dung,2025-06-08 13:38:28
+174,7082810312822376,PMT,IB,POS_PAY,Rút tiền mặt tại POS,19882269,Tra gop the tin dung,2025-03-02 03:55:02
+175,1529799824340889,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,12094598,Gui tiet kiem ngan han,2024-11-04 10:06:14
+176,4463126517332607,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,5218386,Nap tien dien thoai,2024-08-26 01:47:56
+177,1764342868487946,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,5892639,Rut tien tai ATM,2024-05-04 16:49:10
+178,5814234003120529,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10449916,Gui tiet kiem ngan han,2024-03-11 05:41:37
+179,2274263508052250,CKNB,MB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,15772319,Rut tien tai ATM,2024-02-08 02:01:22
+180,1766662223583378,PMT,POS,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,11886669,Tra gop the tin dung,2025-05-19 12:36:25
+181,5406878852942681,PMT,IB,POS_PAY,Rút tiền mặt tại POS,15680026,Thanh toan hoa don dien,2024-02-08 07:39:15
+182,3466407528569217,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,4093999,Tra gop the tin dung,2024-06-29 08:23:51
+183,1604940508755763,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,7804552,Chuyen khoan luong thang,2025-05-28 12:48:14
+184,6166598758362488,CASH,ATM,ATM,Rút tiền mặt từ thẻ,3174361,Nap tien dien thoai,2024-09-13 06:41:59
+185,1243933024400111,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10013436,Thanh toan hoa don dien,2024-06-05 09:44:35
+186,5177863634880920,CASH,TL,ATM,Nộp tiền mặt vào thẻ,10649297,Chuyen khoan luong thang,2025-01-10 06:39:06
+187,8877525019324175,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,4360417,Chuyen tien cho nguoi than,2024-10-11 13:44:52
+188,3579718799358705,CASH,TL,ATM,Nộp tiền mặt vào thẻ,12233178,Thanh toan hoa don dien,2024-05-05 02:55:15
+189,6448702870640908,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,9636177,Rut tien tai ATM,2025-05-22 02:42:15
+190,5025348969011671,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,228138,Thanh toan Internet,2025-08-03 22:14:03
+191,6667135140145423,CKNB,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,2818304,Rut tien tai ATM,2024-09-16 02:05:22
+192,4234920017650475,CASH,TL,TL,Nộp tiền mặt vào thẻ,7597335,Nap tien dien thoai,2024-10-07 15:31:27
+193,8360071414563147,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,12335949,Nap tien dien thoai,2024-11-30 01:41:05
+194,4602140019120848,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,11916724,Chuyen khoan luong thang,2025-02-09 02:08:20
+195,4017882088623046,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,9781236,Nap tien dien thoai,2025-03-03 23:27:28
+196,5435738053920586,CKNB,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,3754415,Rut tien tai ATM,2025-01-01 19:37:48
+197,5753803036030319,CASH,TL,TL,Rút tiền mặt từ thẻ,4917290,Chuyen khoan luong thang,2024-03-26 08:09:57
+198,1614694680120465,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,17190100,Chuyen tien cho nguoi than,2024-07-31 04:35:33
+199,8224491465774441,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,19252095,Chuyen khoan luong thang,2025-04-18 14:36:01
+200,5953203281648932,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,4308342,Nap tien dien thoai,2025-04-01 22:16:50
+201,9452021834335318,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,18516662,Tra gop the tin dung,2025-06-30 13:36:03
+202,6232188736226448,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,11910492,Thanh toan hoa don dien,2024-10-17 13:15:21
+203,9080162628638983,LNH,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,2595747,Nap tien dien thoai,2024-11-27 13:25:02
+204,7301581323810570,VTK,TL,LN_PAY,Thanh toán khoản vay qua thẻ,18701551,Nap tien dien thoai,2025-04-13 00:59:15
+205,4998647223367492,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,11140546,Thanh toan Internet,2024-12-02 01:15:52
+206,8447720357097928,LNH,ATM,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,8500501,Thanh toan hoa don dien,2024-06-05 12:53:57
+207,3384569003932233,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,13100866,Tra gop the tin dung,2024-12-20 22:30:14
+208,9266593477871347,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9574494,Chuyen khoan luong thang,2025-04-16 20:36:20
+209,4322035094533288,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,6185534,Thanh toan hoa don dien,2024-04-02 15:19:12
+210,2917739389550536,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,11400604,Thanh toan hoa don dien,2025-04-30 23:57:09
+211,2583519923893993,CASH,TL,ATM,Nộp tiền mặt vào thẻ,12099200,Nap tien dien thoai,2024-05-09 05:25:16
+212,8506091713072991,PMT,MB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,13841080,Gui tiet kiem ngan han,2025-01-30 14:05:44
+213,1777683258393469,CKNB,MB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,10108201,Thanh toan hoa don dien,2025-02-28 20:59:11
+214,5170792313675149,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,9253651,Nap tien dien thoai,2025-07-23 16:11:24
+215,9522727905478336,CASH,TL,POS_PAY,Thanh toán POS của thẻ Debit,6143557,Thanh toan hoa don dien,2024-09-14 23:40:29
+216,9942052383335460,VTK,MB,SAVING,Rút tiết kiệm sang thẻ,11510172,Thanh toan Internet,2025-01-16 07:29:08
+217,3781272991610201,CASH,TL,TL,Giao dịch ngoại tệ,1337543,Thanh toan Internet,2025-03-12 00:31:23
+218,9933874301610125,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,19114565,Chuyen tien cho nguoi than,2024-12-28 16:24:37
+219,3792121938614177,CASH,TL,TL,Giao dịch ngoại tệ,9902733,Gui tiet kiem ngan han,2025-03-22 05:41:39
+220,1772462492371657,CASH,ATM,POS_PAY,Thanh toán POS của thẻ Debit,1336173,Thanh toan Internet,2024-09-21 08:35:21
+221,7791117555844236,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,4832612,Rut tien tai ATM,2024-01-22 08:07:06
+222,4377873497454843,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,15510731,Chuyen khoan luong thang,2024-04-29 03:37:49
+223,3871318942574838,CASH,ATM,TL,Nộp tiền mặt vào thẻ,8340911,Chuyen khoan luong thang,2024-09-28 16:15:29
+224,2280012238248577,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,12419000,Nap tien dien thoai,2024-08-28 23:52:06
+225,2511349251073453,VTK,OTHER,SAVING,Tất toán tiết kiệm và trả lãi,7308176,Tra gop the tin dung,2025-07-25 15:42:36
+226,9947538547537218,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,5066088,Tra gop the tin dung,2025-07-23 02:12:50
+227,6862812398516936,CASH,ATM,ATM,Rút tiền mặt từ thẻ,18984690,Nap tien dien thoai,2024-08-26 14:46:42
+228,1478744037036569,PMT,MB,POS_PAY,Rút tiền mặt tại POS,8503269,Nap tien dien thoai,2025-04-10 15:42:43
+229,8369488069381366,CASH,ATM,ATM,Rút tiền mặt từ thẻ,10117503,Thanh toan hoa don dien,2024-05-14 17:07:36
+230,3840915138547700,CASH,TL,POS_PAY,Rút tiền mặt tại POS,6212237,Chuyen khoan luong thang,2024-04-19 11:51:09
+231,1007440770834072,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,19174348,Thanh toan Internet,2024-03-19 20:35:25
+232,3612160476392408,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,2568191,Thanh toan Internet,2024-12-11 13:10:32
+233,2101626465826794,CASH,TL,POS_PAY,Rút tiền mặt tại POS,12262044,Rut tien tai ATM,2024-09-08 15:46:21
+234,3402654541908173,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,11044754,Thanh toan Internet,2025-02-11 00:51:07
+235,4280489758778812,CASH,TL,TL,Giao dịch ngoại tệ,17690531,Gui tiet kiem ngan han,2024-05-19 23:55:51
+236,6037265876396953,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,19045870,Tra gop the tin dung,2025-07-29 08:07:55
+237,2251175052466235,PMT,MB,CRE_CARD,Thanh toán thẻ tín dụng,18262743,Nap tien dien thoai,2024-10-20 12:38:16
+238,8145297215093088,CASH,ATM,TL,Nộp tiền mặt vào thẻ,13850714,Chuyen tien cho nguoi than,2025-08-07 15:17:12
+239,2446207326294817,CASH,ATM,TL,Giao dịch ngoại tệ,7345035,Thanh toan hoa don dien,2025-07-14 04:05:48
+240,8770213898078108,CASH,TL,TL,Nộp tiền mặt vào thẻ,19118432,Thanh toan Internet,2025-06-15 07:17:54
+241,2076512629891316,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,17974173,Nap tien dien thoai,2024-06-17 23:29:13
+242,4582330236008017,LNH,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,11685055,Thanh toan hoa don dien,2024-09-05 10:18:06
+243,6457421003094646,VTK,TL,LN_PAY,Giải ngân khoản vay qua thẻ,15195346,Gui tiet kiem ngan han,2025-06-13 19:58:42
+244,2111744216734268,PMT,TL,CRE_CARD,Thanh toán thẻ tín dụng,7396335,Gui tiet kiem ngan han,2024-01-08 12:12:17
+245,7466898655978005,PMT,IB,CRE_CARD,Thu nợ quá hạn thẻ tín dụng,15418433,Thanh toan hoa don dien,2024-01-10 02:09:34
+246,1934768091332070,CASH,ATM,TL,Rút tiền mặt từ thẻ,6059591,Tra gop the tin dung,2025-02-23 04:14:31
+247,6353133439266480,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,4446188,Chuyen tien cho nguoi than,2024-10-26 05:08:51
+248,3384896310471873,LNH,MB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,12537664,Chuyen khoan luong thang,2024-04-25 18:36:55
+249,3855857275556783,OTHER,OTHER,DEBIT_CASHBACK,Hoàn tiền thẻ thanh toán,14719749,Chuyen khoan luong thang,2024-09-13 21:24:27
+250,1410324184566747,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,9610375,Chuyen tien cho nguoi than,2024-04-07 22:20:09
+251,2981409502400793,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,6115770,Gui tiet kiem ngan han,2024-05-11 03:21:24
+252,3819666310829323,CASH,ATM,TL,Nộp tiền mặt vào thẻ,18429993,Chuyen tien cho nguoi than,2025-03-16 02:58:04
+253,7976103798702281,VTK,OTHER,LN_PAY,Giải ngân khoản vay qua thẻ,12863386,Thanh toan Internet,2025-03-14 11:34:35
+254,1803331138664602,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,10601591,Thanh toan Internet,2024-10-17 17:37:41
+255,9811438777971295,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,2608565,Chuyen khoan luong thang,2024-10-02 14:26:00
+256,3895081782991537,CASH,TL,TL,Rút tiền mặt từ thẻ,156103,Nap tien dien thoai,2024-12-08 14:25:03
+257,9295128564009320,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,1901118,Chuyen khoan luong thang,2025-08-06 08:18:54
+258,5764702289961832,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,9648478,Tra gop the tin dung,2024-04-15 09:46:06
+259,9559912439587761,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11639092,Chuyen khoan luong thang,2024-01-08 22:25:33
+260,6645850349181208,PMT,ATM,POS_PAY,Thanh toán POS của thẻ Debit,16771933,Thanh toan hoa don dien,2024-02-05 23:21:43
+261,4908766165629868,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,6605733,Rut tien tai ATM,2025-07-03 10:38:46
+262,4652302136908670,CASH,ATM,ATM,Nộp tiền mặt vào thẻ,3564680,Gui tiet kiem ngan han,2025-03-19 22:16:31
+263,2257669522717260,VTK,TL,SAVING,Rút tiết kiệm sang thẻ,4620562,Chuyen tien cho nguoi than,2025-05-23 03:19:34
+264,6578082358197689,VTK,IB,LN_PAY,Giải ngân khoản vay qua thẻ,4250695,Tra gop the tin dung,2024-02-11 23:22:10
+265,3349544099838727,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,15573720,Rut tien tai ATM,2024-10-17 03:16:30
+266,6330293101713987,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,7381227,Chuyen tien cho nguoi than,2024-12-07 21:49:30
+267,4357586548641826,CASH,ATM,ATM,Rút tiền mặt từ thẻ,7871659,Thanh toan hoa don dien,2024-03-05 13:43:55
+268,4900854559975719,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,2797120,Nap tien dien thoai,2024-08-26 21:17:02
+269,4965716575732455,PMT,MB,CRE_CARD,Trích nợ thẻ tín dụng,6160664,Nap tien dien thoai,2024-12-22 21:52:16
+270,1442297661828670,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,18630276,Thanh toan hoa don dien,2025-01-01 04:41:06
+271,2195511092227620,CASH,ATM,POS_PAY,Rút tiền mặt tại POS,15232,Nap tien dien thoai,2025-06-22 11:19:25
+272,7153106425950544,CKNB,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,10983117,Nap tien dien thoai,2024-04-05 08:08:21
+273,5284472000148359,CASH,ATM,TL,Nộp tiền mặt vào thẻ,10955318,Nap tien dien thoai,2024-09-16 20:59:58
+274,1148519837856496,PMT,TL,POS_PAY,Thanh toán POS của thẻ Debit,5152281,Gui tiet kiem ngan han,2025-01-08 22:14:46
+275,6334627694400506,VTK,IB,LN_PAY,Thanh toán khoản vay qua thẻ,10661833,Rut tien tai ATM,2024-10-31 19:26:41
+276,3102714253841314,VTK,IB,SAVING,Tất toán tiết kiệm và trả lãi,4502476,Chuyen tien cho nguoi than,2025-03-20 10:12:40
+277,5507286215999449,CASH,TL,TL,Giao dịch ngoại tệ,5321835,Rut tien tai ATM,2024-12-14 22:24:03
+278,1458737424623675,VTK,OTHER,LN_PAY,Thanh toán khoản vay qua thẻ,4094071,Chuyen khoan luong thang,2025-05-27 18:04:03
+279,4484279933429010,LNH,MB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,9247267,Thanh toan Internet,2024-10-10 05:37:20
+280,6490719260636718,CASH,TL,TL,Giao dịch ngoại tệ,705895,Chuyen tien cho nguoi than,2024-04-18 03:47:01
+281,5976890332865089,LNH,IB,NAPAS_CRD,Nhận tiền về NAPAS từ thẻ,16322980,Tra gop the tin dung,2025-05-29 23:36:45
+282,9781761450784401,CKNB,IB,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,1864714,Chuyen tien cho nguoi than,2024-04-27 23:10:30
+283,5836945156633630,CASH,TL,TL,Giao dịch ngoại tệ,8388534,Nap tien dien thoai,2025-06-24 23:11:07
+284,8544040520084061,LNH,ATM,NAPAS_ACC,Chuyển tiền Napas (24/7) tới tài khoản,302209,Thanh toan Internet,2024-04-03 21:57:06
+285,4852534748614658,VTK,TL,SAVING,Tất toán tiết kiệm và trả lãi,1688254,Chuyen khoan luong thang,2024-10-13 04:06:26
+286,8205767161014008,CKNB,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2284174,Gui tiet kiem ngan han,2024-05-10 18:00:25
+287,7503158522987584,PMT,IB,POS_PAY,Thanh toán POS của thẻ Debit,144763,Chuyen tien cho nguoi than,2024-02-14 19:35:17
+288,3788774766636372,VTK,MB,LN_PAY,Thanh toán khoản vay qua thẻ,6401115,Gui tiet kiem ngan han,2025-06-02 00:58:11
+289,3663392895915094,LNH,IB,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,5146167,Tra gop the tin dung,2025-07-02 17:07:12
+290,3720696297533879,LNH,IB,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,2856787,Thanh toan Internet,2025-05-30 07:28:26
+291,7709287032545903,CASH,ATM,TL,Nộp tiền mặt vào thẻ,3612709,Nap tien dien thoai,2024-07-31 16:38:11
+292,6617496518377243,CASH,TL,POS_PAY,Rút tiền mặt tại POS,9910198,Thanh toan hoa don dien,2024-10-15 17:22:06
+293,4671509472441680,VTK,MB,SAVING,Tất toán tiết kiệm và trả lãi,3332789,Tra gop the tin dung,2024-12-31 05:32:15
+294,4231541934385301,CASH,ATM,TL,Nộp tiền mặt vào thẻ,11209712,Thanh toan Internet,2024-02-01 21:16:27
+295,1373035445767207,CKNB,ATM,NAPAS_CRD,Chuyển tiền Napas (24/7) tới thẻ,18872181,Thanh toan hoa don dien,2025-07-31 00:44:16
+296,1430303856546272,CASH,TL,TL,Rút tiền mặt từ thẻ,14290149,Tra gop the tin dung,2024-09-24 17:52:31
+297,6800663534928232,VTK,MB,LN_PAY,Giải ngân khoản vay qua thẻ,12945162,Thanh toan Internet,2024-06-04 07:57:37
+298,6099684919353267,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,721102,Tra gop the tin dung,2025-04-16 18:44:41
+299,4110121680821802,LNH,ATM,NAPAS_ACC,Nhận tiền về Napas từ tài khoản,12068349,Chuyen khoan luong thang,2025-06-05 14:18:56

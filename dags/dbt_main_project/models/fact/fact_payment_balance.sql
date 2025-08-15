@@ -29,4 +29,3 @@ INNER JOIN {{ ref('dim_account_payment') }} DACCP
 LEFT JOIN tmp
     ON ACCP.Account_Payment_ID = tmp.Account_Payment_ID
 WHERE ACCP.Account_Payment_ID IS NOT NULL
-    AND ACCP.Updated_At = '{{ var("run_date") }}'

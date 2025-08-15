@@ -7,6 +7,7 @@
 SELECT 
     CONCAT('FT_', service_type_code) AS service_type_code,
     CONCAT(service_type_code, '_F') AS description,
+    'F' AS use_for,
     MD5(CONCAT(
         COALESCE(CONCAT(service_type_code, '_F'),''),
         COALESCE('F','')
@@ -22,6 +23,7 @@ UNION ALL
 SELECT 
     CONCAT('C_', service_type_code) AS service_type_code,
     CONCAT(service_type_code, '_C') AS description,
+    'C' AS use_for,
     MD5(CONCAT(
         COALESCE(CONCAT(service_type_code, '_C'),''),
         COALESCE('C','')
