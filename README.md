@@ -4,6 +4,9 @@ Dự án này được xây dựng trên các công nghệ như Apache Spark, Hi
 
 ### Các Thành Phần Chính
 
+<img width="1047" height="509" alt="image" src="https://github.com/user-attachments/assets/d47cd400-3bc7-4b0f-9ff6-5f42a2f465bd" />
+
+
 1. **Hive Postgres**: Cung cấp cơ sở dữ liệu PostgreSQL để lưu trữ metadata cho Hive Metastore.
 2. **Hive Metastore**: Dịch vụ quản lý metadata cho Hive, kết nối với PostgreSQL để lưu trữ thông tin về các bảng dữ liệu.
 3. **MinIO**: Một hệ thống lưu trữ dữ liệu dưới dạng Object Storage tương tự Amazon S3, sử dụng để lưu trữ và truy cập các dữ liệu lớn.
